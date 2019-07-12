@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
+import Button from "../../shared/components/ButtonRender";
 import Marker from "../../assets/image/marker-icon.png";
 import Mail from "../../assets/image/mail-icon.png";
 import Phone from "../../assets/image/phone-icon.png";
@@ -88,9 +89,10 @@ const ConactUs = () => (
                 defaultValue={""}
               />
             </div>
-            <a href="#" className="contact-submit">
+            {/* <a href="#" className="contact-submit">
               SUBMIT
-            </a>
+            </a> */}
+            <Button title="Submit" link="about" className="contact-submit" />
           </form>
         </div>
       </div>

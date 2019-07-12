@@ -1,6 +1,6 @@
 import React from "react";
 
-import Button from "../../../shared/components/button";
+import Button from "../../../shared/components/ButtonRender";
 
 const AboutCommentForm = () => (
   <div className="comments-part pb-4 pb-sm-5">
@@ -39,9 +39,7 @@ const AboutCommentForm = () => (
               defaultValue={""}
             />
           </div>
-          <button className="btn submit-comment" type="submit">
-            SUBMIT
-          </button>
+          <Button title="Submit" link="about" />
         </form>
       </div>
     </div>

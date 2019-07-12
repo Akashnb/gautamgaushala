@@ -79,7 +79,7 @@ a:hover {
 .cause-detail .comment-submit:hover,
 .gallery-part .more .more-btn:hover,
 .about-part .readmore:hover {
-  background-color: #ff6d0d;
+  background-color: #ca5407;
   color: #fff !important;
 }
 .payment-done {
@@ -1400,7 +1400,7 @@ select {
 }
 .contact-part .contact-submit {
   font-size: 20px;
-  background-color: #10cb7f;
+  background-color: #ff6d0d;
   color: #fff;
   font-weight: 700;
   height: 60px;

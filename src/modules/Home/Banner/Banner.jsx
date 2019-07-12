@@ -1,6 +1,6 @@
 import React from "react";
 
-import Button from "../../../shared/components/button";
+import Button from "../../../shared/components/ButtonRender";
 import MainBanner from "../../../assets/image/main-banner.jpg";
 import Slider1 from "../../../assets/image/site/slider1.jpg";
 import Slider2 from "../../../assets/image/site/slider2.jpg";
