@@ -1,0 +1,12 @@
+import React from "react";
+
+import ContactUs from "../../modules/ContactUs/ContactUsContainer";
+import ManinTemplate from "../../shared/templates/MainTemplate/MainTemplateContainer";
+
+const ContactUsPage = () => (
+  <ManinTemplate>
+    <ContactUs />
+  </ManinTemplate>
+);
+
+export default ContactUsPage;

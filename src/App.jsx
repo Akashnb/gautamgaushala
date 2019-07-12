@@ -1,0 +1,21 @@
+import React from "react";
+import { Provider } from "react-redux";
+
+import "./assets/css/bootstrap.min.css";
+import "./assets/css/danveer.css";
+import "./assets/css/font-awesome.min.css";
+import "./assets/css/magnific-popup.css";
+
+import "./assets/styles/app.scss";
+import reduxStore from "./store";
+import Routes from "./Routes";
+
+const App = () => (
+  <Provider store={reduxStore}>
+    <div className="App">
+      <Routes />
+    </div>
+  </Provider>
+);
+
+export default App;

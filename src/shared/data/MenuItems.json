@@ -1,0 +1,48 @@
+[
+  {
+    "id": "1",
+    "title": "Home",
+    "path": "/"
+  },
+  {
+    "id": "2",
+    "title": "About Us",
+    "children": [
+      {
+        "id": "2.1",
+        "title": "About Us",
+        "path": "/about-us"
+      },
+      {
+        "id": "2.2",
+        "title": "Cause",
+        "path": "/cause"
+      },
+      {
+        "id": "2.3",
+        "title": "Cause Details",
+        "path": "/cause-details"
+      },
+      {
+        "id": "2.4",
+        "title": "Activities",
+        "path": "/activities"
+      },
+      {
+        "id": "2.5",
+        "title": "Our Team",
+        "path": "/our-team"
+      }
+    ]
+  },
+  {
+    "id": "3",
+    "title": "Gallery",
+    "path": "/gallery"
+  },
+  {
+    "id": "4",
+    "title": "Contact Us",
+    "path": "/contact-us"
+  }
+]
