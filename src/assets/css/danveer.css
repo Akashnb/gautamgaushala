@@ -40,7 +40,7 @@ a:hover {
   width: 100%;
 }
 .img-box img {
-  width: 3rem;
+  max-width: 100%;
 }
 .img-fullwidth {
   width: 100% !important;
@@ -49,6 +49,9 @@ a:hover {
   padding: 7px 0;
 }
 
+.svg-width img {
+  width: 3rem;
+}
 
 /*-----zoom on hover-----*/
 .zoom {

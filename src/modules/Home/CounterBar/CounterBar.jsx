@@ -10,7 +10,7 @@ const CounterBar = () => (
     <div className="container">
       <div className="row" id="counter">
         <div className="col-lg-3 col-md-6 col-sm-6 col-xs-12 service-info">
-          <div className="img-box float-sm-left mr-2">
+          <div className="img-box float-sm-left mr-2 svg-width">
             <img src={CowSvg} alt="donation-icon" />
           </div>
           <div className="service-detail float-sm-left mr-3">
@@ -19,7 +19,7 @@ const CounterBar = () => (
           </div>
         </div>
         <div className="col-lg-3 col-md-6 col-sm-6 col-xs-12 service-info">
-          <div className="img-box float-sm-left mr-2">
+          <div className="img-box float-sm-left mr-2 svg-width">
             <img src={YearsSvg} alt="volunteer-icon" />
           </div>
           <div className="service-detail float-sm-left">
@@ -28,7 +28,7 @@ const CounterBar = () => (
           </div>
         </div>
         <div className="col-lg-3 col-md-6 col-sm-6 col-xs-12 service-info">
-          <div className="img-box float-sm-left mr-2">
+          <div className="img-box float-sm-left mr-2 svg-width">
             <img src={SuccessRescued} alt="success-icon" />
           </div>
           <div className="service-detail float-sm-left">
@@ -37,7 +37,7 @@ const CounterBar = () => (
           </div>
         </div>
         <div className="col-lg-3 col-md-6 col-sm-6 col-xs-12 service-info">
-          <div className="img-box float-sm-left mr-2">
+          <div className="img-box float-sm-left mr-2 svg-width">
             <img src={VolunteerSvg} alt="globalization-icon" />
           </div>
           <div className="service-detail float-sm-left">
