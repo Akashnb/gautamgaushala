@@ -40,7 +40,7 @@ a:hover {
   width: 100%;
 }
 .img-box img {
-  max-width: 100%;
+  width: 3rem;
 }
 .img-fullwidth {
   width: 100% !important;
@@ -50,7 +50,7 @@ a:hover {
 }
 
 .svg-width{
-  width: 3rem;
+  width: 100%;
 }
 
 /*-----zoom on hover-----*/
@@ -4161,6 +4161,7 @@ thead {
   }
   .footer-part .footer-links {
     margin-bottom: 0;
+    text-align: center;
   }
   .footer-part .footer-links:last-child {
     margin-bottom: 40px;
