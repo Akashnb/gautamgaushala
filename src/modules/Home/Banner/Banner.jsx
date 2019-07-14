@@ -3,6 +3,7 @@ import React from "react";
 import Button from "../../../shared/components/ButtonRender";
 import Slider1 from "../../../assets/image/site/slider1.png";
 import Slider2 from "../../../assets/image/site/slider2.png";
+import Slider3 from "../../../assets/image/site/slider3.png";
 
 const Banner = () => (
   <div
@@ -34,7 +35,7 @@ const Banner = () => (
         </div>
       </div>
       <div className="carousel-item">
-        <img className="d-block w-100" src={Slider1} alt="Third slide" />
+        <img className="d-block w-100" src={Slider3} alt="Third slide" />
         <div className="banner-detail text-center">
           <h3 className="banner-title">Save The Cow</h3>
           <span className="heading-span inline">
