@@ -33,8 +33,10 @@ const Donation = () => (
           </thead>
           <tbody>
             <tr>
-              <td>Shree Gauttam Gaushala Cheritable</td>
-              <td>-</td>
+              <th colSpan="2" style={{ textAlign: "center" }}>
+                Shree Gauttam Gaushala Cheritable
+              </th>
+              {/* <td>-</td> */}
             </tr>
             <tr>
               <td>Dena Bank [ દેના બેંક ]</td>
