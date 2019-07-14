@@ -1,9 +1,8 @@
 import React from "react";
 
 import Button from "../../../shared/components/ButtonRender";
-import MainBanner from "../../../assets/image/main-banner.jpg";
-import Slider1 from "../../../assets/image/site/slider1.jpg";
-import Slider2 from "../../../assets/image/site/slider2.jpg";
+import Slider1 from "../../../assets/image/site/slider1.png";
+import Slider2 from "../../../assets/image/site/slider2.png";
 
 const Banner = () => (
   <div
@@ -13,7 +12,7 @@ const Banner = () => (
   >
     <div className="carousel-inner">
       <div className="carousel-item active">
-        <img className="d-block w-100" src={MainBanner} alt="First slide" />
+        <img className="d-block w-100" src={Slider2} alt="First slide" />
         <div className="banner-detail text-center">
           <h3 className="banner-title">Save The Cow</h3>
           <span className="heading-span inline">
@@ -35,7 +34,7 @@ const Banner = () => (
         </div>
       </div>
       <div className="carousel-item">
-        <img className="d-block w-100" src={Slider2} alt="Third slide" />
+        <img className="d-block w-100" src={Slider1} alt="Third slide" />
         <div className="banner-detail text-center">
           <h3 className="banner-title">Save The Cow</h3>
           <span className="heading-span inline">
