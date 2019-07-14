@@ -1,14 +1,14 @@
 import React from "react";
 
-import RescueTeam from "../../modules/RescueTeam/RescueTeamContainer";
+import Donation from "../../modules/Donation/DonationContainer";
 import ManinTemplate from "../../shared/templates/MainTemplate/MainTemplateContainer";
 import PageHolding from "../../shared/components/PageHolding/PageHoldingContainer";
 
-const RescueTeamPage = () => (
+const DonationPage = () => (
   <ManinTemplate>
-    <PageHolding title="મદદ ટીમ" />
-    <RescueTeam />
+    <PageHolding title="યોગદાન" />
+    <Donation />
   </ManinTemplate>
 );
 
-export default RescueTeamPage;
+export default DonationPage;
