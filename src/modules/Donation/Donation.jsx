@@ -33,6 +33,10 @@ const Donation = () => (
           </thead>
           <tbody>
             <tr>
+              <td>Shree Gauttam Gaushala Cheritable</td>
+              <td>-</td>
+            </tr>
+            <tr>
               <td>Dena Bank [ દેના બેંક ]</td>
               <td>019510006721</td>
             </tr>
