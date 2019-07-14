@@ -1,9 +1,12 @@
 import React from "react";
 
 import Button from "../../../shared/components/ButtonRender";
-import Slider1 from "../../../assets/image/site/slider1.png";
-import Slider2 from "../../../assets/image/site/slider2.png";
-import Slider3 from "../../../assets/image/site/slider3.png";
+import Slider1 from "../../../assets/image/site/slider/slider1.png";
+import Slider2 from "../../../assets/image/site/slider/slider2.png";
+import Slider3 from "../../../assets/image/site/slider/slider3.png";
+import MobileSlider1 from "../../../assets/image/site/slider/mobileslider1.png";
+import MobileSlider2 from "../../../assets/image/site/slider/mobileslider2.png";
+import MobileSlider3 from "../../../assets/image/site/slider/mobileslider3.png";
 
 const Banner = () => (
   <div
@@ -13,7 +16,16 @@ const Banner = () => (
   >
     <div className="carousel-inner">
       <div className="carousel-item active">
-        <img className="d-block w-100" src={Slider2} alt="First slide" />
+        <img
+          className="d-block w-100 web-slider"
+          src={Slider2}
+          alt="First slide"
+        />
+        <img
+          className="d-block w-100 mobile-slider"
+          src={MobileSlider2}
+          alt="First slide"
+        />
         <div className="banner-detail text-center">
           <h3 className="banner-title">Save The Cow</h3>
           <span className="heading-span inline">
@@ -24,7 +36,16 @@ const Banner = () => (
         </div>
       </div>
       <div className="carousel-item">
-        <img className="d-block w-100" src={Slider1} alt="Second slide" />
+        <img
+          className="d-block w-100 web-slider"
+          src={Slider1}
+          alt="Second slide"
+        />
+        <img
+          className="d-block w-100 mobile-slider"
+          src={MobileSlider1}
+          alt="Second slide"
+        />
         <div className="banner-detail text-center">
           <h3 className="banner-title">Save The Cow</h3>
           <span className="heading-span inline">
@@ -35,7 +56,16 @@ const Banner = () => (
         </div>
       </div>
       <div className="carousel-item">
-        <img className="d-block w-100" src={Slider3} alt="Third slide" />
+        <img
+          className="d-block w-100 web-slider"
+          src={Slider3}
+          alt="Third slide"
+        />
+        <img
+          className="d-block w-100 mobile-slider"
+          src={MobileSlider3}
+          alt="Third slide"
+        />
         <div className="banner-detail text-center">
           <h3 className="banner-title">Save The Cow</h3>
           <span className="heading-span inline">

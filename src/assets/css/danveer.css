@@ -4416,7 +4416,7 @@ thead {
   }
   img.d-block.w-100 {
     height: 265px;
-    width: auto !important;
+    /* width: auto !important; */
   }
   .navbar-dark .navbar-toggler-icon {
     margin-top: 9px;

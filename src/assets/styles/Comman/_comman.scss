@@ -37,3 +37,19 @@
 .header-logo {
   width: 26%;
 }
+
+/* Slider */
+
+.web-slider {
+  display: block !important;
+  @media screen and (max-width: 720px) {
+    display: none !important;
+  }
+}
+
+.mobile-slider {
+  display: none !important;
+  @media screen and (max-width: 720px) {
+    display: block !important;
+  }
+}
