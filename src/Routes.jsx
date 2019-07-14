@@ -7,7 +7,7 @@ import About from "./scenes/AboutPage/AboutPage";
 import ContactUs from "./scenes/ContactUsPage/ContactUsPage";
 import Gallery from "./scenes/GalleryPage/GalleryPage";
 import Cowservices from "./shared/components/CowServices/CowServicesContainer";
-import TeamMembers from "./scenes/TeamMember/TeamMember";
+import RescueTeam from "./scenes/RescueTeamPage/RescueTeamPage";
 
 const Routes = () => (
   <BrowserRouter>
@@ -19,7 +19,7 @@ const Routes = () => (
         <Route exact path="/about" component={About} />
         <Route exact path="/contact-us" component={ContactUs} />
         <Route exact path="/gallery" component={Gallery} />
-        <Route exact path="/our-team" component={TeamMembers} />
+        <Route exact path="/rescue" component={RescueTeam} />
       </Switch>
     </Fragment>
   </BrowserRouter>

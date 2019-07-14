@@ -1,7 +1,7 @@
 import React from "react";
 import { Provider } from "react-redux";
 
-import "./assets/css/bootstrap.min.css";
+import "./assets/css/layout.css";
 import "./assets/css/danveer.css";
 import "./assets/css/font-awesome.min.css";
 import "./assets/css/magnific-popup.css";

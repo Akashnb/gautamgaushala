@@ -1,14 +1,14 @@
 import React from "react";
 
-import TeamMembers from "../../modules/TeamMembers/TeamMembersContainer";
+import RescueTeam from "../../modules/RescueTeam/RescueTeamContainer";
 import ManinTemplate from "../../shared/templates/MainTemplate/MainTemplateContainer";
 import PageHolding from "../../shared/components/PageHolding/PageHoldingContainer";
 
-const TeamMember = () => (
+const RescueTeamPage = () => (
   <ManinTemplate>
-    <PageHolding title="Our Team" />
-    <TeamMembers />
+    <PageHolding title="Rescue Team" />
+    <RescueTeam />
   </ManinTemplate>
 );
 
-export default TeamMember;
+export default RescueTeamPage;

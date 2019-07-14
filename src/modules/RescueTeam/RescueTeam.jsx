@@ -7,7 +7,7 @@ import TeamPerson4 from "../../assets/image/team-img4.jpg";
 import TeamPerson5 from "../../assets/image/team-img5.jpg";
 import TeamPerson6 from "../../assets/image/team-img6.jpg";
 
-const TeamMember = () => (
+const RescueTeam = () => (
   <div className="team-detail paddingub mob-py-50">
     <div className="container">
       <div className="row">
@@ -216,4 +216,4 @@ const TeamMember = () => (
   </div>
 );
 
-export default TeamMember;
+export default RescueTeam;

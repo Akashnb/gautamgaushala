@@ -9,7 +9,7 @@ const WelcomeDanveer = () => (
   <div className="intro text-center">
     <div className="container">
       <div className="row">
-        <h1 className="head-one inline">Welcome to Danveer</h1>
+        <h1 className="head-one inline">દાતા આપનું સ્વાગત છે</h1>
         <span className="intro-span inline">
           Bring to the table win-win survival strategies to ensure proactive
           domination.
@@ -31,7 +31,7 @@ const WelcomeDanveer = () => (
           <div className="row">
             <div className="col-xs-12 col-sm-6 col-md-6 col-lg-3 intro-grp-detail">
               <img src={HelpIcon} className="mb-2 mb-lg-4" alt="help-icon" />
-              <h2 className="sub-head-two inline">Help The Children</h2>
+              <h2 className="sub-head-two inline">એક દિવસ ના દાતા</h2>
               <p className="intro-detail-p mb-0">
                 Sed ut perspiciatis unde omnis iste natus error sit voluptatem
                 voluptatem
@@ -43,7 +43,7 @@ const WelcomeDanveer = () => (
                 className="mb-2 mb-lg-4"
                 alt="volunteer-icon"
               />
-              <h2 className="sub-head-two inline">સ્વયંસેવક બનો</h2>
+              <h2 className="sub-head-two inline">માસિક દાતા</h2>
               <p className="intro-detail-p mb-0">
                 Sed ut perspiciatis unde omnis iste natus error sit voluptatem
                 voluptatem
@@ -55,7 +55,7 @@ const WelcomeDanveer = () => (
                 className="mb-2 mb-lg-4"
                 alt="education-icon"
               />
-              <h2 className="sub-head-two inline">Child Education</h2>
+              <h2 className="sub-head-two inline">વાર્ષિક દાતા</h2>
               <p className="intro-detail-p mb-0">
                 Sed ut perspiciatis unde omnis iste natus error sit voluptatem
                 voluptatem
@@ -67,7 +67,7 @@ const WelcomeDanveer = () => (
                 className="mb-2 mb-lg-4"
                 alt="donation-icon"
               />
-              <h2 className="sub-head-two inline">દાન આપો</h2>
+              <h2 className="sub-head-two inline">સ્વયંસેવક બનો</h2>
               <p className="intro-detail-p mb-0">
                 Sed ut perspiciatis unde omnis iste natus error sit voluptatem
                 voluptatem
