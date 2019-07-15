@@ -53,19 +53,6 @@ a:hover {
   width: 3rem;
 }
 
-/*-----zoom on hover-----*/
-.zoom {
-  display: block;
-  overflow: hidden;
-  position: relative;
-}
-.zoom img:hover {
-  -moz-transform: scale(1.1);
-  -webkit-transform: scale(1.1);
-  transform: scale(1.1);
-}
-/*-----End-----*/
-
 .navbar-expand-lg .navbar-nav .nav-link:hover {
   color: #ff6d0d !important;
 }
@@ -82,21 +69,12 @@ a:hover {
   background-color: #ca5407;
   color: #fff !important;
 }
-.payment-done {
-  color: #fff;
-  background-color: #ff6d0d;
-  padding: 14px 31px 15px 30px;
-  display: inline-block;
-  font-size: 14px;
-  font-weight: 500;
-  text-decoration: none;
-}
 .shop-total .checkout a:hover,
 .education-part .donate-box .donate-btn:hover,
 .cause-detail .donate:hover,
 .banner-detail .donate:hover,
-.header ul .nav-item.donate a:hover,
-.payment-done:hover {
+.header ul .nav-item.donate a:hover
+{
   color: #fff !important;
   background-color: #ca5407;
   text-decoration: none;
@@ -106,9 +84,6 @@ a:hover {
 }
 .about-service .about-serv-detail:hover {
   box-shadow: 0px 6px 30px -10px rgba(0, 0, 0, 0.25);
-}
-.services .my-15:hover img {
-  transform: rotateY(180deg);
 }
 .mob-donate {
   color: #fff !important;
@@ -409,295 +384,6 @@ a:hover {
 }
 /*End*/
 
-/*Service part*/
-.service-part {
-  background: url(../image/service-img.jpg) no-repeat;
-  padding: 99px 0 85px 0;
-  color: #fff;
-  background-position: center;
-  margin: 5% 0;
-}
-.service-part .service-detail {
-  margin-left: 10px;
-}
-.service-part .head-five {
-  font-size: 16px;
-  margin-bottom: 0;
-  color: #fff;
-}
-.service-part .service-span {
-  font-size: 35px;
-  font-weight: 700;
-  font-family: "Roboto Slab";
-  color: #fff;
-}
-.service-part .service-info a {
-  text-decoration: none;
-}
-/*End*/
-
-/*Cause-part*/
-.causes-part {
-  padding: 95px 0 100px 0;
-}
-.causes-part .section-detail {
-  margin-bottom: 27px;
-}
-.causes-part .img-box {
-  position: relative;
-}
-.causes-part .img-box .percent-wise {
-  position: absolute;
-  bottom: 0;
-  right: -1px;
-  color: #fff;
-  background-color: #10cb7f;
-  padding: 16px 12px 16px 13px;
-  text-align: center;
-  font-weight: 600;
-  font-size: 14px;
-}
-.causes-part .cause-detail {
-  padding: 27px 30px 30px 30px;
-  border: 1px solid #e6e6e6;
-}
-.causes-part .causes-content .section-title {
-  margin-bottom: 5px !important;
-}
-.causes-part .cause-detail .causes-title {
-  font-size: 16px;
-  font-weight: 600;
-  font-family: "Roboto Slab";
-  margin-bottom: 5px !important;
-  display: inline-block;
-}
-.causes-part .cause-detail .causes-title {
-  color: #212529;
-  text-decoration: none;
-}
-.causes-part .cause-detail .section-detail {
-  margin-bottom: 20px;
-}
-.causes-part .cause-detail .raised .pay-label {
-  font-size: 14px;
-  font-family: "Roboto Slab";
-  color: #10cb7f;
-  font-weight: 600;
-  margin-bottom: 20px;
-}
-.causes-part .cause-detail .raised .money {
-  font-size: 14px;
-  color: #999;
-  font-weight: 400;
-}
-.progress {
-  background-color: #ff6d0d !important;
-  border-radius: 0 !important;
-  height: 8px !important;
-}
-.progress.inline {
-  display: flex;
-}
-.progress-bar {
-  background-color: #10cb7f !important;
-}
-.causes-comment-part .form-group.px-7 {
-  padding-left: 6px !important;
-  padding-right: 6px !important;
-}
-/*End*/
-
-/*Donation-part*/
-.donation-part {
-  background: url(../image/parralax_img.jpg) no-repeat;
-  background-position: center;
-  padding: 50px 0 50px 0;
-  background-attachment: fixed;
-}
-.donation-part .payment-part {
-  background-color: rgba(33, 35, 34, 0.8);
-  width: 65%;
-  padding: 50px;
-}
-.donation-part .payment-part .heading-three {
-  font-size: 24px;
-  font-family: "Roboto Slab";
-  font-weight: 600;
-  color: #fff;
-  margin-bottom: 35px;
-}
-.donation-part .payment-part .pay-option img {
-  margin-right: 10px;
-}
-.donation-part .payment-part .pay-option img:last-child {
-  margin-right: 0;
-}
-.donation-part .payment-part .payment-type .form-check {
-  margin: 35px 50px 38px 0;
-  color: #636363;
-}
-.donation-part .payment-part .payment-type .donation-detail .form-group {
-  margin-right: 15px;
-  margin-bottom: 30px;
-}
-.donation-part
-  .payment-part
-  .payment-type
-  .donation-detail
-  .form-group:last-child {
-  margin-right: 0;
-}
-.donation-part .payment-part .payment-type .pay-group .form-check {
-  margin: 15px 30px 30px 0;
-}
-.donation-part .payment-part .payment-type .pay-group .form-group .head-label,
-.donation-part .payment-part .payment-type .donation-detail .form-group label {
-  font-size: 16px;
-  color: #fff;
-  font-weight: 600;
-  font-family: "Roboto Slab";
-  margin-bottom: 25px;
-}
-.donation-part
-  .payment-part
-  .payment-type
-  .donation-detail
-  .form-group
-  .form-control {
-  width: 331px;
-  height: 47px;
-  color: #888;
-  border-radius: 0;
-  font-size: 14px;
-}
-select {
-  -webkit-appearance: none;
-  background: url(../image/dropimg.png) no-repeat;
-  background-position: 300px 20px;
-  font-size: 15px;
-}
-/*End*/
-
-/*events-part*/
-.events {
-  padding: 100px 0;
-}
-.events .causes-content .section-title {
-  margin-bottom: 10px;
-}
-.events .causes-content .section-detail {
-  margin-bottom: 30px;
-}
-.events .img-box {
-  position: relative;
-}
-.events .blog-date {
-  position: absolute;
-  bottom: 0;
-  right: 0;
-  background-color: #10cb7f;
-  color: #fff;
-  font-size: 14px;
-  padding: 6px 20px;
-  z-index: 1;
-}
-.events .events-detail {
-  padding: 33px 40px;
-  border: 1px solid #e9e9e9;
-  display: grid;
-}
-.events .events-detail .detail-title {
-  font-size: 15px;
-  color: #212322;
-  font-weight: 600;
-  margin-bottom: 15px;
-  font-family: "Roboto Slab";
-  font-style: normal;
-  text-decoration: none;
-  display: inline-block;
-}
-.events .events-detail .detail-title:hover {
-  color: #10cb7f;
-}
-.events .events-detail .events-p {
-  color: #acabab;
-  font-size: 12px;
-  margin-bottom: 9px;
-}
-.events .events-detail .event-p {
-  color: #acabab;
-  font-size: 14px;
-  line-height: 20px;
-  margin: 0px 0 20px 0;
-}
-.events .events-detail a {
-  color: #10cb7f;
-  font-style: italic;
-  font-size: 14px;
-  text-decoration: underline;
-  font-weight: 500;
-  text-decoration: underline;
-}
-.events .blog-slider {
-  margin-top: 50px;
-}
-/*End*/
-
-/*comment-part*/
-.comment-part {
-  padding: 100px 0 170px 0;
-  background-color: #f5f5f5;
-}
-.comment-part .comments {
-  margin: 0 auto;
-  background-color: #fff; /*padding: 60px;padding-bottom: 0;*/
-}
-.comment-part .comments .comment-p {
-  color: #999;
-  line-height: 28px;
-  text-align: center;
-  margin: 30px 0 50px 0;
-  font-size: 14px;
-}
-.comment-part .comments .l-arrow {
-  position: unset;
-  padding: 0;
-  background-color: #e9e9e9;
-  top: 0;
-  left: 0;
-}
-.comment-part .comments .r-arrow {
-  position: unset;
-  padding: 0;
-  background-color: #e9e9e9;
-  top: 0;
-  right: 0;
-}
-.comment-part .comments .slider-img {
-  left: 44%;
-}
-.comment-part .client-thumb-outer {
-  position: relative;
-  max-width: 300px;
-  margin: 0 auto;
-  overflow: hidden;
-  padding-top: 20px;
-  margin-bottom: -55px;
-}
-.comment-part .client-thumb-outer .profile1 {
-  position: absolute;
-  left: 40px;
-  top: 60px;
-  display: block;
-}
-.comment-part .client-thumb-outer .profile3 {
-  position: absolute;
-  right: 40px;
-  top: 60px;
-  display: block;
-}
-/*End*/
-
 /*footer-part*/
 .footer-part {
   color: #888888;
@@ -788,12 +474,6 @@ select {
 /*End*/
 
 /*Causes-page*/
-.causes-banner {
-  background: url(../image/causes-banner.jpg) no-repeat;
-  text-align: center;
-  background-position: center;
-  background-size: cover;
-}
 .banner-content {
   padding: 100px 0;
 }
@@ -806,72 +486,6 @@ select {
   display: inline-block;
   padding: 20px 45px;
   margin-bottom: 0;
-}
-.causes-part.padtb {
-  padding: 65px 0 75px 0;
-}
-.causes-part.padtb .col-xs-12 {
-  margin-top: 30px !important;
-}
-.causes-part .page-number {
-  margin-top: 25px;
-}
-.page-number {
-  margin-top: 50px;
-  margin-left: 11px;
-}
-.pagination .page-item {
-  display: inline-block;
-}
-.page-number .pagination {
-  margin-bottom: 0;
-  display: inline-block;
-  text-align: center;
-  width: 100%;
-}
-.page-number .pagination .page-link {
-  background-color: #fff;
-  color: #999;
-  margin: 0 5px;
-  border-radius: 0px;
-  font-size: 16px;
-  padding: 11px 16px 11px 17px;
-}
-.page-number .pagination .page-item.prev .page-link {
-  background: url(../image/left-arrow.png) no-repeat;
-  background-color: #fff;
-  background-position: 16px 16px;
-  padding: 21px 21px;
-  margin-bottom: -16px;
-}
-.page-number .pagination .page-item.prev .page-link:hover {
-  background: url(../image/page-left.png) no-repeat;
-  background-color: #ff6d0d;
-  background-position: 16px 16px;
-}
-.page-number .pagination .page-item.next .page-link {
-  background: url(../image/right-arrow.png) no-repeat;
-  background-color: #fff;
-  background-position: 17px 16px;
-  padding: 21px 21px;
-  margin-bottom: -16px;
-}
-.page-number .pagination .page-item.next .page-link:hover {
-  background: url(../image/page-right.png) no-repeat;
-  background-color: #ff6d0d;
-  background-position: 17px 16px;
-}
-.page-number .pagination .page-link.active,
-.page-number .pagination .page-link:hover {
-  background-color: #ff6d0d;
-  color: #fff !important;
-}
-.page-item:first-child .page-link,
-.page-item:last-child .page-link {
-  border-radius: 0 !important;
-}
-.page-number .pagination .page-link:focus {
-  box-shadow: none;
 }
 /*End*/
 
@@ -941,209 +555,6 @@ select {
 .gallery-part .btn.focus,
 .gallery-part .btn:focus {
   box-shadow: none;
-}
-/*End*/
-
-/*Blog-page*/
-.blog-banner {
-  background: url(../image/blog-banner.jpg) no-repeat;
-  text-align: center;
-  background-position: center;
-  background-size: cover;
-}
-.blog-part .pad {
-  padding-right: 0;
-  padding-left: 30px;
-}
-.blog-part .sidebar-content .sidebar-category .category-content.searching {
-  background-color: #e8e8e8;
-  padding: 10px;
-}
-.blog-part .sidebar-content .sidebar-category input:focus {
-  background-color: #f5f5f5;
-}
-.blog-part .sidebar-content .sidebar-category input {
-  border: none;
-  background-color: #e8e8e8;
-  padding-left: 5px;
-  font-size: 14px;
-  padding-top: 9px;
-  padding-bottom: 10px;
-  width: 92%;
-  padding-right: 10px;
-}
-.blog-part .sidebar-content .sidebar-category i {
-  color: #a8a8a8;
-}
-.blog-part .sidebar-content .sidebar-category i:hover {
-  color: #ff6d0d;
-  cursor: pointer;
-}
-.blog-part .sidebar-content .sidebar-category {
-  margin-bottom: 10px;
-  width: 300px;
-}
-.blog-part .sidebar-content .sidebar-category.cat-data {
-  border: 1px solid #eaeaea;
-  margin-bottom: 40px;
-}
-.blog-part .sidebar-content .cat-detail {
-  padding: 25px 30px;
-}
-.blog-part .sidebar-content .cat-detail .cat-title {
-  color: #231f20;
-  font-size: 18px;
-  font-weight: 600;
-  display: inline-block;
-  margin-bottom: 15px;
-  font-family: "Roboto Slab";
-}
-.blog-part .sidebar-content .cat-detail .cat-grp {
-  list-style: none;
-}
-.blog-part .sidebar-content .cat-detail .cat-item {
-  margin-bottom: 7px;
-}
-.blog-part .sidebar-content .cat-detail .cat-item .cat-link {
-  color: #999;
-  font-size: 14px;
-}
-.blog-part .sidebar-content .sidebar-category .category-title {
-  background-color: #e8e8e8;
-}
-.blog-part .sidebar-content .sidebar-category .category-title .cate-heading {
-  font-size: 18px;
-  font-family: "Roboto Slab";
-  font-weight: 600;
-  color: #231f20;
-  padding: 17px 30px 16px 30px;
-  display: inline-block;
-}
-.blog-part .sidebar-content .sidebar-category .gal-grp {
-  margin-top: 10px;
-  margin-bottom: 40px;
-}
-.blog-part .sidebar-content .sidebar-category .gal-grp .gal-img {
-  margin-right: 6px;
-}
-.blog-part .tags {
-  margin-top: 5px;
-  margin-bottom: 40px;
-}
-.blog-part .tags .tag:hover {
-  background-color: #10cb7f;
-  color: #fff !important;
-  cursor: pointer;
-}
-.blog-part .tags a {
-  color: #999;
-}
-.blog-part .tags .tag {
-  border: 1px solid #eaeaea;
-  padding: 10px 19px;
-  display: inline-block;
-  font-size: 14px;
-  margin: 5px 3px;
-}
-.blog-detail {
-  padding: 40px;
-  border: 1px solid #eaeaea;
-  margin-bottom: 40px;
-}
-.blog-detail .blog-head-two {
-  font-size: 24px;
-  color: #2a2b2c;
-  font-weight: 700;
-  font-family: "Roboto Slab";
-}
-.blog-detail .blog-head-two:hover {
-  color: #ff6d0d;
-}
-.blog-detail .readmore:hover {
-  transition: 0s;
-}
-.blog-detail .blog-span {
-  font-size: 14px;
-  color: #10cb7f;
-  display: inline-block;
-  margin-bottom: 25px;
-}
-.blog-detail .blog-p {
-  font-size: 14px;
-  color: #999;
-}
-.blog-detail .readmore {
-  color: #10cb7f;
-  text-decoration: underline !important;
-  font-size: 14px;
-  font-style: italic;
-}
-.recent-post .recent {
-  margin-top: 16px;
-}
-.recent-post .recent:first-child {
-  margin-top: 10px;
-}
-.recent-post .recent-detail {
-  width: 50%;
-  padding-left: 20px;
-  padding-top: 10px;
-}
-.recent-post .recent-detail .post-title {
-  font-size: 14px;
-  color: #111;
-  font-weight: 500;
-  font-family: "Roboto Slab";
-  margin-bottom: 0;
-}
-.recent-post .recent-detail .post-date {
-  color: #10cb7f;
-  font-size: 14px;
-}
-.blog-part .page-number .pagination {
-  text-align: left;
-}
-/*End*/
-
-/*Activities-page*/
-.activities-banner {
-  background: url(../image/activity-banner.jpg) no-repeat;
-  text-align: center;
-  background-position: left;
-  background-size: cover;
-}
-.services .sprite-img {
-  margin-right: 19px;
-}
-.services .services-detail {
-  width: 80%;
-}
-.services .services-detail .serv-head-two {
-  font-size: 18px;
-  font-family: "Roboto Slab";
-  font-weight: 700;
-  margin-bottom: 0;
-}
-.services .services-detail .serv-p {
-  font-size: 14px;
-  color: #999;
-  margin-top: 15px;
-  margin-bottom: 15px;
-}
-.services .services-detail .serv-read-btn {
-  font-size: 14px;
-  color: #10cb7f;
-  text-decoration: underline;
-  font-style: italic;
-}
-.services .my-15 {
-  margin: 15px 0;
-}
-.donation-part.activity {
-  padding: 34px 0 34px 0;
-}
-.services-detail .serv-read-btn:hover {
-  color: #ff6d0d;
 }
 /*End*/
 
@@ -1421,105 +832,6 @@ select {
 .contact-part .social-icon i:hover {
   background-color: #ff6d0d;
   color: #fff;
-}
-/*End*/
-
-/*Shoppage-page*/
-.shoppage-banner {
-  background: url(../image/shop-page-banner.jpg) no-repeat;
-  text-align: center;
-  background-position: center;
-  background-size: cover;
-}
-.blog-part .product-title,
-.blog-part .show-result {
-  font-size: 16px;
-  font-family: "Roboto Slab";
-  color: #231f20;
-  font-weight: 600;
-  display: inline-block;
-  float: left;
-  padding-top: 12px;
-}
-.blog-part .detail .product-title.w-100 {
-  width: 100%;
-  text-align: center;
-  padding-left: 0;
-  padding-top: 17px;
-}
-.blog-part .detail .product-title.w-100 a {
-  color: #231f20;
-  text-decoration: none;
-}
-.blog-part .img-box:hover .detail .product-title.w-100 {
-  color: #ff6d0d;
-  cursor: pointer;
-  text-decoration: none;
-}
-.blog-part .img-box:hover .prod-img {
-  opacity: 0.9;
-  cursor: pointer;
-}
-.blog-part .detail p {
-  font-size: 16px;
-  font-weight: 700;
-  color: #10cb7f;
-  text-align: center;
-}
-.blog-part .detail p span {
-  font-weight: 500;
-  color: #999;
-  text-decoration: line-through;
-}
-.blog-part .form-group {
-  float: right;
-}
-.blog-part .form-group .form-control {
-  width: 185px;
-}
-.blog-part .form-group select.form-control {
-  -webkit-appearance: none;
-  background: url(../image/sorting-img.png) no-repeat;
-  background-position: 161px 15px;
-  font-size: 15px;
-  font-family: "Roboto Slab";
-  color: #999;
-  border-radius: 0;
-}
-.blog-part .form-group select.form-control:focus {
-  box-shadow: none;
-  border-color: #e5e5e5;
-}
-.blog-part .prod-img {
-  margin-top: 15px;
-}
-.blog-img {
-  display: inline-block;
-  z-index: 1;
-  position: relative;
-  overflow: hidden;
-}
-.blog-img.over-none {
-  overflow: unset !important;
-}
-.blog-img.overlay:before {
-  content: " ";
-  display: block;
-  position: absolute;
-  z-index: 2;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(40, 40, 40, 0.5);
-  opacity: 0;
-  transition: opacity 0.3s;
-}
-.blog-part.img-box:hover .blog-img.overlay:before {
-  opacity: 1;
-}
-.item .img-box:hover .blog-img.overlay:before {
-  opacity: 1;
 }
 /*End*/
 
@@ -2661,9 +1973,9 @@ thead {
   float: left;
 }
 
-.events .over {
+/* .events .over {
   overflow: hidden;
-}
+} */
 .event-slider .owl-item {
   float: left;
   width: 100%;
@@ -3303,44 +2615,8 @@ thead {
   .section-title {
     font-size: 32px;
   }
-  .donation-part {
-    padding: 0;
-  }
-  .donation-part .payment-part .payment-type .form-check {
-    margin: 20px 50px 20px 0;
-  }
-  .donation-part .payment-part .payment-type .donation-detail .form-group {
-    margin-bottom: 20px;
-  }
-  .donation-part
-    .payment-part
-    .payment-type
-    .donation-detail
-    .form-group
-    label {
-    margin-bottom: 10px;
-  }
-  .donation-part .payment-part .payment-type .pay-group .form-check {
-    margin: 15px 15px 20px 0;
-  }
-  .events {
-    padding: 80px 0;
-  }
   .brand-part {
     padding: 80px 0 110px;
-  }
-  .events .events-detail {
-    padding: 30px 20px;
-  }
-  .events .events-detail .detail-title {
-    font-size: 14px;
-  }
-  .events .events-detail .event-p {
-    margin-bottom: 7px;
-    font-size: 13px;
-  }
-  .comment-part {
-    padding: 80px 0 150px 0;
   }
   .banner-content {
     padding-left: 15px;
@@ -3523,12 +2799,7 @@ thead {
   .intro .intro-group {
     margin: 0 auto;
   }
-  .service-part {
-    padding: 23px 0 36px 0;
-  }
-  .service-info {
-    margin-top: 25px;
-  }
+
   .about-part {
     padding-top: 140px;
   }
@@ -3545,80 +2816,12 @@ thead {
   .section-detail {
     margin-bottom: 20px;
   }
-  .service-part .service-span {
-    font-size: 28px;
-  }
-  .causes-part {
-    padding: 50px 0 100px 0;
-  }
-  .donation-part
-    .payment-part
-    .payment-type
-    .donation-detail
-    .form-group
-    .form-control {
-    width: 190px;
-  }
-  select {
-    background-position: 163px 20px;
-  }
-  .donation-part .payment-part .payment-type .pay-group .form-check {
-    margin: 15px 14px 20px 0;
-  }
-  .donation-part {
-    padding: 0;
-  }
-  .causes-part .cause-detail {
-    padding: 18px;
-  }
-  .causes-part .cause-detail .raised .pay-label {
-    margin-bottom: 10px;
-  }
+  
   .section-title {
     font-size: 38px;
   }
-  .causes-part .section-detail {
-    margin-bottom: 0;
-  }
-  .causes-part .col-xs-12 {
-    margin-top: 30px;
-  }
-  .donation-part .payment-part {
-    width: 90%;
-    margin: 40px auto;
-  }
   .brand-part {
     padding: 60px 0 60px;
-  }
-  .events {
-    padding: 80px 0;
-  }
-  .events .causes-content .section-detail {
-    margin-bottom: 0;
-  }
-  .events .col-xs-12 {
-    margin-top: 30px;
-  }
-  .events .events-detail {
-    padding: 20px 15px;
-    font-size: 14px;
-    display: inline-block;
-  }
-  .events .blog-slider {
-    margin-top: 30px;
-  }
-  .comment-part {
-    padding: 60px 0 135px 0;
-  }
-  .comment-part .comments .slider-img {
-    left: 39%;
-    top: 81%;
-  }
-  .comment-part .comments .comment-p {
-    margin: 15px 0 52px 0;
-  }
-  .comment-part .comments {
-    padding: 40px 30px;
   }
   .footer-part {
     padding: 50px 0 0 0;
@@ -3698,9 +2901,6 @@ thead {
   }
   .add-map iframe {
     height: 350px;
-  }
-  .causes-part.pt-20 {
-    padding-top: 20px;
   }
   .education-part .donate-box {
     margin-top: 30px;
@@ -3899,18 +3099,8 @@ thead {
   .page-number.marl-0 {
     margin-left: 0;
   }
-  .services .services-detail .serv-head-two {
-    margin-top: 15px;
-  }
-  .services .services-detail {
-    width: 100%;
-  }
   .blog-part.masonry .blog-detail {
     padding: 15px !important;
-  }
-  .causes-comment-part .form-group.px-7 {
-    padding-left: 6px !important;
-    padding-right: 7px !important;
   }
   .blog-part .page-number .pagination {
     text-align: center;
@@ -3932,12 +3122,6 @@ thead {
   .dropdown-menu.level-3 {
     margin-left: 20px;
     background-color: transparent !important;
-  }
-  .services .services-detail {
-    width: 100%;
-  }
-  .services .services-detail .serv-head-two {
-    margin-top: 15px;
   }
   .banner-detail .banner-title {
     font-size: 22px;
@@ -4049,103 +3233,8 @@ thead {
     margin-bottom: 25px;
     font-size: 15px;
   }
-  .service-part {
-    background-repeat: repeat;
-    padding: 50px 0 46px 0;
-  }
-  .service-part .service-span {
-    font-size: 22px;
-  }
-  .service-part .service-info {
-    margin-bottom: 25px;
-  }
-  .service-part .service-info:last-child {
-    margin-bottom: 0px;
-  }
-  .comment-part {
-    padding: 50px 15px 100px 15px;
-  }
   .testimonial-outer .client-testimonial-carousel .owl-nav {
     display: none !important;
-  }
-  .comment-part .comments .l-arrow {
-    left: 0;
-  }
-  .comment-part .comments .r-arrow {
-    right: 0;
-  }
-  .comment-part .comments .slider-img {
-    left: 27%;
-  }
-  .causes-part {
-    padding: 45px 0 60px 0;
-  }
-  .causes-part .col-xs-12 {
-    margin-bottom: 30px;
-  }
-  .events {
-    padding: 50px 0;
-  }
-  .events .events-detail .events-p {
-    font-size: 14px;
-  }
-  .events .events-detail {
-    padding: 20px;
-    margin: 0 10px;
-  }
-  .events .blog-slider {
-    margin-top: 25px;
-  }
-  .events .col-xs-12 {
-    margin-bottom: 30px;
-  }
-  .events .col-xs-12:last-child {
-    margin-bottom: 0px;
-  }
-  .events .img-box {
-    margin: 0 10px;
-  }
-  .donation-part {
-    padding: 0;
-  }
-  .donation-part .payment-part {
-    width: 100%;
-    padding: 20px;
-  }
-  .donation-part
-    .payment-part
-    .payment-type
-    .donation-detail
-    .form-group
-    .form-control {
-    width: 250px;
-  }
-  .donation-part .payment-part .payment-type .form-check {
-    margin: 25px 18px 25px 0;
-  }
-  .donation-part .payment-part .payment-type .pay-group .form-check {
-    margin: 10px 10px 5px 0;
-  }
-  .payment-done {
-    margin-top: 20px;
-  }
-  .donation-part .payment-part .payment-type .donation-detail .form-group {
-    margin-bottom: 15px;
-  }
-  .donation-part
-    .payment-part
-    .payment-type
-    .donation-detail
-    .form-group
-    label {
-    margin-bottom: 10px;
-  }
-  select {
-    background-position: 215px 20px;
-  }
-  .donation-part .payment-part .pay-option img {
-    margin-right: 5px;
-    margin-bottom: 5px;
   }
   .brand-part {
     padding: 50px 0 50px;
@@ -4388,9 +3477,6 @@ thead {
   .causes-slide .owl-stage-outer {
     display: inline-block;
   }
-  .causes-part .col-xs-12 {
-    margin-bottom: 30px;
-  }
   .causes-slide .owl-dots {
     text-align: center;
     margin-top: 30px;
@@ -4571,15 +3657,6 @@ thead {
   .testimonial-slider .owl-nav .owl-next {
     right: 5px !important;
   }
-  .events .events-detail .detail-title {
-    font-size: 16px;
-  }
-  .events .blog-date {
-    padding: 4px 6px;
-    font-size: 12px;
-    right: 0px;
-    z-index: 1;
-  }
   .intro .head-one {
     font-size: 26px;
     margin-bottom: 10px;
@@ -4605,17 +3682,11 @@ thead {
   .gallery-part {
     padding: 50px 0;
   }
-  .events .img-box {
-    float: none !important;
-  }
   .causes-slide .owl-nav .owl-prev {
     top: 25% !important;
   }
   .causes-slide .owl-nav .owl-next {
     top: 25% !important;
-  }
-  .services .services-detail .serv-p {
-    margin: 10px 0;
   }
   .contact-part .contact-submit {
     font-size: 15px;
@@ -4636,9 +3707,6 @@ thead {
   }
   .shop-slide .owl-stage-outer {
     width: 199px;
-  }
-  .causes-part.padtb {
-    padding: 45px 0 60px;
   }
   .testimonial-block-one .inner-box .text {
     max-width: 235px;
@@ -4711,19 +3779,6 @@ thead {
   .small-img .right-icon {
     right: 0;
   }
-  .service-part .service-info {
-    width: 100%;
-    text-align: center;
-  }
-  .service-part .service-detail {
-    margin-left: 0;
-    margin-top: 20px;
-  }
-  .payment-done {
-    width: 100%;
-    text-align: center;
-    margin-top: 15px;
-  }
   .testimonial-slider {
     padding-top: 45px;
   }
@@ -4758,13 +3813,6 @@ thead {
   .product-button.left-0 {
     left: 8px;
     width: 276px;
-  }
-  .causes-part.padtb .col-xs-12 {
-    margin: 15px 0 !important;
-  }
-  .causes-part .page-number {
-    margin-left: 0;
-    margin-top: 10px;
   }
   .blog-part.masonry .blog-detail {
     padding: 20px;
@@ -4813,19 +3861,5 @@ thead {
   .team-detail .team-data p {
     margin-top: 10px;
   }
-  /* #spinner{left: 42%;} */
 }
 
-/*pre loader animation*/
-/* .loading {
-		-webkit-animation: rotation 2s infinite linear;
-}
-@-webkit-keyframes rotation {
-	from {
-			-webkit-transform: rotateY(359deg);
-	}
-	to {
-			-webkit-transform: rotateY(0deg);
-	}
-} */
-/*------End-----*/
