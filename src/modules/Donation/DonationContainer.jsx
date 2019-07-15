@@ -2,10 +2,13 @@ import React from "react";
 
 import Donation from "./Donation";
 
-const DonationContainer = () => (
-  <React.Fragment>
-    <Donation />
-  </React.Fragment>
-);
+class DonationContainer extends React.Component {
+  componentDidMount() {
+    window.scrollTo(0, 0);
+  }
+  render() {
+    return <Donation />;
+  }
+}
 
 export default DonationContainer;

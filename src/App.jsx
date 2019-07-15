@@ -3,7 +3,6 @@ import { Provider } from "react-redux";
 
 import "./assets/css/layout.css";
 import "./assets/css/danveer.css";
-import "./assets/css/magnific-popup.css";
 
 import "./assets/styles/app.scss";
 import reduxStore from "./store";

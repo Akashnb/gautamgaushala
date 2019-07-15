@@ -2,10 +2,13 @@ import React from "react";
 
 import RescueTeam from "./RescueTeam";
 
-const RescueTeamContainer = () => (
-  <React.Fragment>
-    <RescueTeam />
-  </React.Fragment>
-);
+class RescueTeamContainer extends React.Component {
+  componentDidMount() {
+    window.scrollTo(0, 0);
+  }
+  render() {
+    return <RescueTeam />;
+  }
+}
 
 export default RescueTeamContainer;

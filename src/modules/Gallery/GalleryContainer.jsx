@@ -2,12 +2,13 @@ import React from "react";
 
 import Gallery from "./Gallery";
 
-const GalleryContainer = () => {
-  return (
-    <React.Fragment>
-      <Gallery />
-    </React.Fragment>
-  );
-};
+class GalleryContainer extends React.Component {
+  componentDidMount() {
+    window.scrollTo(0, 0);
+  }
+  render() {
+    return <Gallery />;
+  }
+}
 
 export default GalleryContainer;
