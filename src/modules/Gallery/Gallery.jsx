@@ -42,9 +42,6 @@ const Gallery = () => (
         <img src={Gallery4} className="img-responsive" />
       </div>
       <div className="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6">
-        <img src={Gallery5} className="img-responsive" />
-      </div>
-      <div className="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6">
         <img src={Gallery6} className="img-responsive" />
       </div>
       <div className="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6">
@@ -70,12 +67,6 @@ const Gallery = () => (
       </div>
       <div className="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6">
         <img src={Gallery14} className="img-responsive" />
-      </div>
-      <div className="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6">
-        <img src={Gallery15} className="img-responsive" />
-      </div>
-      <div className="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6">
-        <img src={Gallery16} className="img-responsive" />
       </div>
       <div className="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6">
         <img src={Gallery17} className="img-responsive" />

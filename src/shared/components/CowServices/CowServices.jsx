@@ -1,6 +1,6 @@
 import React from "react";
 
-import img from "../../../assets/image/portfolio-masonry8.jpg";
+// import img from "../../../assets/image/portfolio-masonry8.jpg";
 
 const CowServices = () => (
   <div className="intro text-center">
