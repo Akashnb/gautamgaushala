@@ -1,12 +1,10 @@
 import React from "react";
 import PropTypes from "react-dom";
 
-import AboutBanner from "../../../assets/image/aboutus-banner.jpg";
-
 const PageHolding = ({ img, title }) => (
   <div
     className="aboutus-banner text-left"
-    style={{ backgroundImage: `url(${AboutBanner})` }}
+    style={{ backgroundImage: `url(${img})` }}
   >
     <div className="banner-content">
       <div className="container pl-0">

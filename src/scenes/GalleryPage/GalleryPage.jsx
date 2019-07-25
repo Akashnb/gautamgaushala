@@ -1,12 +1,13 @@
 import React from "react";
 
+import AboutBanner from "../../assets/image/site/aboutus.jpg";
 import Gallery from "../../modules/Gallery/GalleryContainer";
 import ManinTemplate from "../../shared/templates/MainTemplate/MainTemplateContainer";
 import PageHolding from "../../shared/components/PageHolding/PageHoldingContainer";
 
 const GalleryPage = () => (
   <ManinTemplate>
-    <PageHolding title="ગેલેરી" />
+    <PageHolding img={AboutBanner} title="ગેલેરી" />
     <Gallery />
   </ManinTemplate>
 );
