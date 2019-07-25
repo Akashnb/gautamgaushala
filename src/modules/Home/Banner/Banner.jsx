@@ -7,7 +7,6 @@ import Slider3 from "../../../assets/image/site/slider/slider3.png";
 import MobileSlider1 from "../../../assets/image/site/slider/mobileslider1.png";
 import MobileSlider2 from "../../../assets/image/site/slider/mobileslider2.png";
 import MobileSlider3 from "../../../assets/image/site/slider/mobileslider3.png";
-
 const Banner = () => (
   <div
     id="carouselExampleIndicators"
@@ -27,10 +26,9 @@ const Banner = () => (
           alt="First slide"
         />
         <div className="banner-detail text-center">
-          <h3 className="banner-title">Save The Cow</h3>
+          <h3 className="banner-title">ગોમાતા રાષ્ટ્રમાતા</h3>
           <span className="heading-span inline">
-            Cow AND POOR PEOPLE ARE AT HIGH RISK OF SEVERE MALNUTRITION &amp; NO
-            EDUCATION
+            અમારા વારસોને સુરક્ષિત કરવામાં સહાય કરો
           </span>
           <Button title="Donate Now" link="donate" />
         </div>
@@ -47,10 +45,9 @@ const Banner = () => (
           alt="Second slide"
         />
         <div className="banner-detail text-center">
-          <h3 className="banner-title">Save The Cow</h3>
+          <h3 className="banner-title">ગાયોને સહાય કરો</h3>
           <span className="heading-span inline">
-            Cow AND POOR PEOPLE ARE AT HIGH RISK OF SEVERE MALNUTRITION &amp; NO
-            EDUCATION
+            અમારા વારસોને સુરક્ષિત કરવામાં સહાય કરો
           </span>
           <Button title="Donate Now" link="donate" />
         </div>
@@ -67,10 +64,9 @@ const Banner = () => (
           alt="Third slide"
         />
         <div className="banner-detail text-center">
-          <h3 className="banner-title">Save The Cow</h3>
+          <h3 className="banner-title">સ્વર્ગનો ખુલ્લો દરવાજો</h3>
           <span className="heading-span inline">
-            Cow AND POOR PEOPLE ARE AT HIGH RISK OF SEVERE MALNUTRITION &amp; NO
-            EDUCATION
+            અમારા વારસોને સુરક્ષિત કરવામાં સહાય કરો
           </span>
           <Button title="Donate Now" link="donate" />
         </div>
