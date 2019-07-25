@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 
 import Logo from "../../../assets/image/site/logo.png";
 
@@ -30,9 +30,9 @@ const AppHeader = ({ MenuItems }) => (
             {MenuItems.map(menuItem => (
               <li key={menuItem.id} className="nav-item">
                 {/*active*/}
-                <Link className="nav-link" to={menuItem.path}>
+                <NavLink className="nav-link" exact to={menuItem.path}>
                   {menuItem.title}
-                </Link>
+                </NavLink>
               </li>
             ))}
             <li className="nav-item donate d-none d-lg-block">
