@@ -26,9 +26,13 @@ const Banner = () => (
           alt="First slide"
         />
         <div className="banner-detail text-center">
-          <h3 className="banner-title">ગોમાતા રાષ્ટ્રમાતા</h3>
+          <h3 className="banner-title">
+            <span className="text-overlay">ગોમાતા રાષ્ટ્રમાતા</span>
+          </h3>
           <span className="heading-span inline">
-            અમારા વારસોને સુરક્ષિત કરવામાં સહાય કરો
+            <span className="text-overlay">
+              અમારા વારસોને સુરક્ષિત કરવામાં સહાય કરો
+            </span>
           </span>
           <Button title="Donate Now" link="donate" />
         </div>
@@ -45,9 +49,13 @@ const Banner = () => (
           alt="Second slide"
         />
         <div className="banner-detail text-center">
-          <h3 className="banner-title">ગાયોને સહાય કરો</h3>
+          <h3 className="banner-title">
+            <span className="text-overlay">ગો-રક્ષા પરમ ધર્મ</span>
+          </h3>
           <span className="heading-span inline">
-            અમારા વારસોને સુરક્ષિત કરવામાં સહાય કરો
+            <span className="text-overlay">
+              અમારા વારસોને સુરક્ષિત કરવામાં સહાય કરો
+            </span>
           </span>
           <Button title="Donate Now" link="donate" />
         </div>
@@ -64,9 +72,13 @@ const Banner = () => (
           alt="Third slide"
         />
         <div className="banner-detail text-center">
-          <h3 className="banner-title">સ્વર્ગનો ખુલ્લો દરવાજો</h3>
+          <h3 className="banner-title">
+            <span className="text-overlay">સ્વર્ગનો ખુલ્લો દરવાજો</span>
+          </h3>
           <span className="heading-span inline">
-            અમારા વારસોને સુરક્ષિત કરવામાં સહાય કરો
+            <span className="text-overlay">
+              અમારા વારસોને સુરક્ષિત કરવામાં સહાય કરો
+            </span>
           </span>
           <Button title="Donate Now" link="donate" />
         </div>
