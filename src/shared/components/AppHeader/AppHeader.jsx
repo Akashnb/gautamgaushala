@@ -36,11 +36,11 @@ const AppHeader = ({ MenuItems }) => (
               </li>
             ))}
             <li className="nav-item donate d-none d-lg-block">
-              <Link to="/donate">DONATE NOW</Link>
+              <Link to="/donate">દાન કરો</Link>
             </li>
             <li className="mob-donate d-sm-block d-lg-none">
               <Link className="nav-link" to="/donate">
-                DONATE NOW
+                દાન કરો
               </Link>
             </li>
           </ul>

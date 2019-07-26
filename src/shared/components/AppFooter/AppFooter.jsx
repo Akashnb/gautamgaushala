@@ -100,7 +100,11 @@ const Footer = () => (
               </p>
             </div>
             <div className="social-icon ml-auto mr-3">
-              <a href="#" title="Follow on Facebook">
+              <a
+                href="https://www.facebook.com/gautamgaushala/"
+                target="_blank"
+                title="Follow on Facebook"
+              >
                 <i className="fa fa-facebook" />
               </a>
               <a href="#" title="Follow on twitter">

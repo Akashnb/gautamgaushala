@@ -359,7 +359,7 @@ a:hover {
   margin-bottom: 20px;
 }
 .about-part .about-detail .about-head-span {
-  color: #10cb7f;
+  color: #ff6d0d;
   font-size: 2rem;
   font-weight: 600;
   font-family: "Roboto slab";
@@ -372,7 +372,7 @@ a:hover {
 }
 .about-part .readmore {
   color: #fff;
-  background-color: #10cb7f;
+  background-color: #ff6d0d;
   padding: 15px 38px 14px 38px;
   display: inline-block;
   font-size: 14px;
@@ -452,7 +452,7 @@ a:hover {
   font-family: "Open Sans", sans-serif;
 }
 .bottom-footer .copyright a {
-  color: #10cb7f;
+  color: #ff6d0d;
   text-decoration: underline;
 }
 .footer-part .social-icon i {
@@ -517,14 +517,14 @@ a:hover {
   margin: 0 5px;
 }
 .gallery-part .cat-group .cat-item .cat-link:hover {
-  background-color: #10cb7f;
+  background-color: #ff6d0d;
   color: #fff !important;
 }
 .gallery-part .more {
   margin-top: 50px;
 }
 .gallery-part .more .more-btn {
-  background-color: #10cb7f;
+  background-color: #ff6d0d;
   color: #fff;
   font-family: "Roboto Slab";
   font-weight: 600;
@@ -546,7 +546,7 @@ a:hover {
 }
 .gallery-part .btn.active,
 .gallery-part .btn:hover {
-  background-color: #10cb7f;
+  background-color: #ff6d0d;
   color: #fff;
 }
 .gallery-part .btn.focus,
@@ -575,7 +575,7 @@ a:hover {
 .cause-detail .raised .pay-label {
   font-size: 14px;
   font-family: "Roboto Slab";
-  color: #10cb7f;
+  color: #ff6d0d;
   font-weight: 600;
   margin-bottom: 20px;
 }
@@ -673,7 +673,7 @@ a:hover {
 }
 .cause-detail .comment-submit {
   color: #fff;
-  background-color: #10cb7f;
+  background-color: #ff6d0d;
   padding: 13px 44px;
   display: inline-block;
   font-weight: 600;
@@ -695,7 +695,7 @@ a:hover {
   display: inline-block;
 }
 .causes-slide .owl-dot.active {
-  background-color: #10cb7f;
+  background-color: #ff6d0d;
   border: none;
 }
 /*End*/
@@ -870,7 +870,7 @@ a:hover {
   background-color: #ff6d0d !important;
 }
 .bg-2 {
-  background-color: #10cb7f !important;
+  background-color: #ff6d0d !important;
 }
 .bg-3 {
   background-color: #0cadfc !important;
@@ -920,7 +920,7 @@ a:hover {
 .education-part .raised .pay-label {
   font-size: 14px;
   font-family: "Roboto Slab";
-  color: #10cb7f;
+  color: #ff6d0d;
   font-weight: 600;
   margin-bottom: 20px;
 }
@@ -958,11 +958,11 @@ a:hover {
   font-family: "Roboto Slab";
 }
 .aboutus-part .title-head-two span {
-  color: #10cb7f;
+  color: #ff6d0d;
 }
 .aboutus-part .title-head-three {
   font-size: 20px;
-  color: #10cb7f;
+  color: #ff6d0d;
   font-weight: 700;
   font-family: "Roboto Slab";
   margin: 25px 0;
@@ -1037,7 +1037,7 @@ a:hover {
   font-weight: 600;
 }
 .item-detail .item-info .item-price-rate .price {
-  color: #10cb7f;
+  color: #ff6d0d;
   font-weight: 700;
   font-size: 18px;
 }
@@ -1122,7 +1122,7 @@ a:hover {
   color: #fff;
   text-align: center;
   padding: 12px 23px 9px;
-  background-color: #10cb7f;
+  background-color: #ff6d0d;
   font-weight: 700;
   margin-top: 5px;
   display: inline-block;
@@ -1451,7 +1451,7 @@ a:hover {
   display: inline-block;
 }
 .event-slider .owl-dot.active {
-  background-color: #10cb7f;
+  background-color: #ff6d0d;
   border: none;
 }
 
@@ -1793,7 +1793,7 @@ a:hover {
     display: inline-block;
   }
   .brand-part .slider-width .owl-dot.active {
-    background-color: #10cb7f;
+    background-color: #ff6d0d;
     border: none;
   }
   .product-button {
@@ -2110,7 +2110,7 @@ a:hover {
     display: inline-block;
   }
   .brand-part .slider-width .owl-dot.active {
-    background-color: #10cb7f;
+    background-color: #ff6d0d;
     border: none;
   }
   .causes-slide .owl-stage-outer {
@@ -2132,7 +2132,7 @@ a:hover {
     display: inline-block;
   }
   .causes-slide .owl-dot.active {
-    background-color: #10cb7f;
+    background-color: #ff6d0d;
     border: none;
   }
   .product-button {
@@ -2432,7 +2432,7 @@ a:hover {
     display: inline-block;
   }
   .brand-part .slider-width .owl-dot.active {
-    background-color: #10cb7f;
+    background-color: #ff6d0d;
     border: none;
   }
   .causes-slide .owl-nav {
@@ -2453,7 +2453,7 @@ a:hover {
     display: inline-block;
   }
   .causes-slide .owl-dot.active {
-    background-color: #10cb7f;
+    background-color: #ff6d0d;
     border: none;
   }
   .recent-post .recent-detail .post-date {
@@ -2780,7 +2780,7 @@ a:hover {
   box-shadow: none;
 }
 .comm-form .btn.submit-comment {
-  background-color: #10cb7f;
+  background-color: #ff6d0d;
   color: #fff;
   font-weight: 700;
   font-family: "Roboto Slab";

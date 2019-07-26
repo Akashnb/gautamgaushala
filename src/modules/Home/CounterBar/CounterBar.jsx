@@ -14,7 +14,7 @@ const CounterBar = () => (
             <img src={CowSvg} alt="donation-icon" />
           </div>
           <div className="service-detail float-sm-left mr-3">
-            <h5 className="head-five">Cow</h5>
+            <h5 className="head-five">ગાય</h5>
             <span className="service-span">90</span>
           </div>
         </div>
@@ -23,7 +23,7 @@ const CounterBar = () => (
             <img src={YearsSvg} alt="volunteer-icon" />
           </div>
           <div className="service-detail float-sm-left">
-            <h5 className="head-five">Years</h5>
+            <h5 className="head-five">વર્ષો</h5>
             <span className="service-span">22</span>
           </div>
         </div>
@@ -32,7 +32,7 @@ const CounterBar = () => (
             <img src={SuccessRescued} alt="success-icon" />
           </div>
           <div className="service-detail float-sm-left">
-            <h5 className="head-five">Success Cow resued</h5>
+            <h5 className="head-five">ગાયને બચાવી</h5>
             <span className="service-span">400 +</span>
           </div>
         </div>
@@ -41,8 +41,8 @@ const CounterBar = () => (
             <img src={VolunteerSvg} alt="globalization-icon" />
           </div>
           <div className="service-detail float-sm-left">
-            <h5 className="head-five">Volunteer</h5>
-            <span className="service-span">25</span>
+            <h5 className="head-five">સ્વયંસેવક</h5>
+            <span className="service-span">25 +</span>
           </div>
         </div>
       </div>

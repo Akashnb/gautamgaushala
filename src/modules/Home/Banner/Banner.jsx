@@ -34,7 +34,7 @@ const Banner = () => (
               અમારા વારસોને સુરક્ષિત કરવામાં સહાય કરો
             </span>
           </span>
-          <Button title="Donate Now" link="donate" />
+          <Button title="દાન કરો" link="donate" />
         </div>
       </div>
       <div className="carousel-item">
@@ -57,7 +57,7 @@ const Banner = () => (
               અમારા વારસોને સુરક્ષિત કરવામાં સહાય કરો
             </span>
           </span>
-          <Button title="Donate Now" link="donate" />
+          <Button title="દાન કરો" link="donate" />
         </div>
       </div>
       <div className="carousel-item">
@@ -80,7 +80,7 @@ const Banner = () => (
               અમારા વારસોને સુરક્ષિત કરવામાં સહાય કરો
             </span>
           </span>
-          <Button title="Donate Now" link="donate" />
+          <Button title="દાન કરો" link="donate" />
         </div>
       </div>
     </div>
