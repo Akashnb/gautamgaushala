@@ -73,14 +73,10 @@ const Footer = () => (
           <div className="col-md-4 col-sm-6 col-xs-12 footer-links">
             <h3 className="heading-five">Get in Touch</h3>
             <iframe
-              width="100%"
-              height="75%"
-              id="gmap_canvas"
-              src="https://maps.google.com/maps?q=ahmedabad&t=&z=13&ie=UTF8&iwloc=&output=embed"
-              frameborder="0"
-              scrolling="no"
-              marginheight="0"
-              marginwidth="0"
+              src="https://maps.google.com/maps?q=gausala%20of%20bantwa&t=k&z=17&ie=UTF8&iwloc=&output=embed"
+              height={200}
+              style={{ border: 0, width: "100%" }}
+              allowFullScreen
             />
           </div>
         </div>
