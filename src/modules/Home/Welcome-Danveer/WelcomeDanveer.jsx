@@ -45,7 +45,7 @@ const WelcomeDanveer = () => (
               />
               <h2 className="sub-head-two inline">માસિક દાતા</h2>
               <p className="intro-detail-p mb-0">
-                અગિયારસ, પ ૂનમ, અમાસ જેવી આપે સુચવેલ તારીખ તિથિ પર યોગદાન કરો.
+                અગિયારસ, પુનમ, અમાસ જેવી આપે સુચવેલ તારીખ તિથિ પર યોગદાન કરો.
               </p>
             </div>
             <div className="col-xs-12 col-sm-6 col-md-6 col-lg-3 intro-grp-detail">
