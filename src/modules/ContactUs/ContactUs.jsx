@@ -2,9 +2,9 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 import Button from "../../shared/components/ButtonRender";
-import Marker from "../../assets/image/site/marker-icon.png";
-import Mail from "../../assets/image/site/mail-icon.png";
-import Phone from "../../assets/image/site/phone-icon.png";
+import Marker from "../../assets/image/marker-icon.png";
+import Mail from "../../assets/image/mail-icon.png";
+import Phone from "../../assets/image/phone-icon.png";
 
 const ConactUs = () => (
   <div className="contact-part paddingub">

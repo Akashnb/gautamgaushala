@@ -1,6 +1,6 @@
 import React from "react";
 
-import GautamGaushala2 from "../../../assets/image/site/gautamgaushala2.jpg";
+import GautamGaushala2 from "../../../assets/image/gautamgaushala2.jpg";
 
 const AboutDescriptionSection1 = () => (
   <div className="aboutus-part paddingub">

@@ -1,11 +1,11 @@
 import React from "react";
 
-import RescueTeam1 from "../../assets/image/site/rescueTeam/rescueTeam1.jpg";
-import RescueTeam2 from "../../assets/image/site/rescueTeam/rescueTeam2.jpg";
-import RescueTeam3 from "../../assets/image/site/rescueTeam/rescueTeam3.jpg";
-import RescueTeam4 from "../../assets/image/site/rescueTeam/rescueTeam4.jpg";
-import RescueTeam5 from "../../assets/image/site/rescueTeam/rescueTeam5.jpg";
-import RescueTeam6 from "../../assets/image/site/rescueTeam/rescueTeam6.jpg";
+import RescueTeam1 from "../../assets/image/rescueTeam/rescueTeam1.jpg";
+import RescueTeam2 from "../../assets/image/rescueTeam/rescueTeam2.jpg";
+import RescueTeam3 from "../../assets/image/rescueTeam/rescueTeam3.jpg";
+import RescueTeam4 from "../../assets/image/rescueTeam/rescueTeam4.jpg";
+import RescueTeam5 from "../../assets/image/rescueTeam/rescueTeam5.jpg";
+import RescueTeam6 from "../../assets/image/rescueTeam/rescueTeam6.jpg";
 
 const RescueTeam = () => (
   <div className="container">

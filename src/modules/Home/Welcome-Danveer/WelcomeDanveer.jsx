@@ -33,8 +33,8 @@ const WelcomeDanveer = () => (
               <img src={HelpIcon} className="mb-2 mb-lg-4" alt="help-icon" />
               <h2 className="sub-head-two inline">એક દિવસ ના દાતા</h2>
               <p className="intro-detail-p mb-0">
-                Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-                voluptatem
+                જન્મ દિવસ, લગન ની સાલ ગિરા, પુણ્ય તિથિ પર યોગદાન આપી ને યાડગાર
+                બનાવો.
               </p>
             </div>
             <div className="col-xs-12 col-sm-6 col-md-6 col-lg-3 intro-grp-detail">
@@ -45,8 +45,7 @@ const WelcomeDanveer = () => (
               />
               <h2 className="sub-head-two inline">માસિક દાતા</h2>
               <p className="intro-detail-p mb-0">
-                Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-                voluptatem
+                અગિયારસ, પ ૂનમ, અમાસ જેવી આપે સુચવેલ તારીખ તિથિ પર યોગદાન કરો.
               </p>
             </div>
             <div className="col-xs-12 col-sm-6 col-md-6 col-lg-3 intro-grp-detail">
@@ -57,8 +56,7 @@ const WelcomeDanveer = () => (
               />
               <h2 className="sub-head-two inline">વાર્ષિક દાતા</h2>
               <p className="intro-detail-p mb-0">
-                Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-                voluptatem
+                આપની આવક માથી અમુક અંશ ગાયો ની મદદ માટે આપો.
               </p>
             </div>
             <div className="col-xs-12 col-sm-6 col-md-6 col-lg-3 intro-grp-detail">

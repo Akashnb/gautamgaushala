@@ -1,7 +1,7 @@
 import React from "react";
 
 import Button from "../../../shared/components/ButtonRender";
-import cow from "../../../assets/image/site/little2cow.jpg";
+import cow from "../../../assets/image/little2cow.jpg";
 
 const AboutSection = () => (
   <div className="about-part">

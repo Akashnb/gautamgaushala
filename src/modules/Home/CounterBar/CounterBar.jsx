@@ -1,9 +1,9 @@
 import React from "react";
 
-import CowSvg from "../../../assets/image/site/svg/cow.svg";
-import SuccessRescued from "../../../assets/image/site/svg/success-resue.svg";
-import VolunteerSvg from "../../../assets/image/site/svg/volunteer.svg";
-import YearsSvg from "../../../assets/image/site/svg/years.svg";
+import CowSvg from "../../../assets/image/svg/cow.svg";
+import SuccessRescued from "../../../assets/image/svg/success-resue.svg";
+import VolunteerSvg from "../../../assets/image/svg/volunteer.svg";
+import YearsSvg from "../../../assets/image/svg/years.svg";
 
 const CounterBar = () => (
   <div className="service-part">

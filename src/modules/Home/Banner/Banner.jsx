@@ -1,12 +1,12 @@
 import React from "react";
 
 import Button from "../../../shared/components/ButtonRender";
-import Slider1 from "../../../assets/image/site/slider/slider1.png";
-import Slider2 from "../../../assets/image/site/slider/slider2.png";
-import Slider3 from "../../../assets/image/site/slider/slider3.png";
-import MobileSlider1 from "../../../assets/image/site/slider/mobileslider1.png";
-import MobileSlider2 from "../../../assets/image/site/slider/mobileslider2.png";
-import MobileSlider3 from "../../../assets/image/site/slider/mobileslider3.png";
+import Slider1 from "../../../assets/image/slider/slider1.png";
+import Slider2 from "../../../assets/image/slider/slider2.png";
+import Slider3 from "../../../assets/image/slider/slider3.png";
+import MobileSlider1 from "../../../assets/image/slider/mobileslider1.png";
+import MobileSlider2 from "../../../assets/image/slider/mobileslider2.png";
+import MobileSlider3 from "../../../assets/image/slider/mobileslider3.png";
 const Banner = () => (
   <div
     id="carouselExampleIndicators"

@@ -1,8 +1,8 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-import FooterCowImg from "../../../assets/image/site/cowfooter.png";
-import Logo from "../../../assets/image/site/logo-new.png";
+import FooterCowImg from "../../../assets/image/cowfooter.png";
+import Logo from "../../../assets/image/logo-new.png";
 import Location from "../../../assets/image/location.png";
 import Phone from "../../../assets/image/phone.png";
 
