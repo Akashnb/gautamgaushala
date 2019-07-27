@@ -56,7 +56,7 @@ const WelcomeDanveer = () => (
               />
               <h2 className="sub-head-two inline">વાર્ષિક દાતા</h2>
               <p className="intro-detail-p mb-0">
-                આપની આવક માથી અમુક અંશ ગાયો ની મદદ માટે આપો.
+                આપની આવક માથી અમુક અંશ ગાયો ની મદદ માટે દાન કરો.
               </p>
             </div>
             <div className="col-xs-12 col-sm-6 col-md-6 col-lg-3 intro-grp-detail">
