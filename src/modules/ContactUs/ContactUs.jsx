@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "react-router-dom";
 
 import Button from "../../shared/components/ButtonRender";
 import Marker from "../../assets/image/marker-icon.png";
@@ -13,7 +12,7 @@ const ConactUs = () => (
         <div className="col-xs-12 col-md-4 col-lg-3">
           <div className="contact-detail">
             <div className="data">
-              <img src={Marker} alt="marker" />
+              <img src={Marker} alt="gauttamgaushala-markericon" />
               <div className="contact-info">
                 <h2 className="contact-head-two">સરનામું</h2>
                 <p className="contact-p">
@@ -23,7 +22,7 @@ const ConactUs = () => (
               </div>
             </div>
             <div className="data">
-              <img src={Mail} alt="mail" />
+              <img src={Mail} alt="gauttamgaushala-mailicon" />
               <div className="contact-info">
                 <h2 className="contact-head-two">Email Address</h2>
                 <a href="#" className="contact-p">
@@ -32,7 +31,7 @@ const ConactUs = () => (
               </div>
             </div>
             <div className="data">
-              <img src={Phone} alt="phone" />
+              <img src={Phone} alt="gauttamgaushala-callicon" />
               <div className="contact-info">
                 <h2 className="contact-head-two">સંપર્ક નંબર</h2>
                 <a className="contact-p mb-0" href="tel:+919033395800">
@@ -44,12 +43,6 @@ const ConactUs = () => (
           <div className="social-icon">
             <a href="#" title="Follow on Facebook">
               <i className="fa fa-facebook" />
-            </a>
-            <a href="#" title="Follow on twitter">
-              <i className="fa fa-twitter" />
-            </a>
-            <a href="#" title="Follow on google-plus">
-              <i className="fa fa-linkedin" />
             </a>
             <a href="#" title="Follow on instagram">
               <i className="fa fa-instagram" />
@@ -89,9 +82,6 @@ const ConactUs = () => (
                 defaultValue={""}
               />
             </div>
-            {/* <a href="#" className="contact-submit">
-              SUBMIT
-            </a> */}
             <Button title="Submit" link="about" className="contact-submit" />
           </form>
         </div>

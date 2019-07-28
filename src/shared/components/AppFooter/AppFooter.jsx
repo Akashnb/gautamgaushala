@@ -8,17 +8,25 @@ import Phone from "../../../assets/image/phone.png";
 
 const Footer = () => (
   <React.Fragment>
-    <img src={FooterCowImg} alt style={{ width: "100%" }} />
+    <img
+      src={FooterCowImg}
+      alt="gauttamgaushala-cowbanner"
+      style={{ width: "100%" }}
+    />
     <footer className="footer-part">
       <div className="container">
         <div className="row">
           <div className="col-md-4 col-sm-6 col-xs-12">
             <Link to="/">
-              <img className="footer-logo" src={Logo} alt="footer-logo" />
+              <img
+                className="footer-logo"
+                src={Logo}
+                alt="gauttamgaushala-logo"
+              />
             </Link>
             <ul className="footer-detail pl-0">
               <li>
-                <img src={Location} className alt="address" />
+                <img src={Location} alt="gauttamgaushala-locationicon" />
                 <span className="company-detail">
                   ગૌતમ ગૌશાળા બાંટવા, ત્રીકોણ બાગ માણાવદર રોડ,
                   <br />
@@ -26,7 +34,7 @@ const Footer = () => (
                 </span>
               </li>
               <li>
-                <img src={Phone} class="" alt="phone" />
+                <img src={Phone} alt="gauttamgaushala-phone" />
                 <a href="tel:+911234567890" class="company-detail">
                   +91 90 333 95 800
                 </a>
@@ -60,10 +68,10 @@ const Footer = () => (
                 <Link to="/about">About us</Link>
               </li>
               <li>
-                <Link to="/">Our Mission</Link>
+                <Link to="/about">Our Mission</Link>
               </li>
               <li>
-                <Link to="/">Our Vision</Link>
+                <Link to="/about">Our Vision</Link>
               </li>
               <li>
                 <Link to="/rescue">Rescue Team</Link>
@@ -73,6 +81,7 @@ const Footer = () => (
           <div className="col-md-4 col-sm-6 col-xs-12 footer-links">
             <h3 className="heading-five">Get in Touch</h3>
             <iframe
+              title="gauttamgaushala-footermap"
               src="https://maps.google.com/maps?q=gausala%20of%20bantwa&t=k&z=17&ie=UTF8&iwloc=&output=embed"
               height={200}
               style={{ border: 0, width: "100%" }}
@@ -90,6 +99,7 @@ const Footer = () => (
                 <a
                   href="https://www.linkedin.com/in/akash-bambhaniya-15b877137/"
                   target="_blank"
+                  rel="noopener noreferrer"
                 >
                   Akash Bambhaniya
                 </a>
@@ -100,6 +110,7 @@ const Footer = () => (
                 href="https://www.facebook.com/gautamgaushala/"
                 target="_blank"
                 title="Follow on Facebook"
+                rel="noopener noreferrer"
               >
                 <i className="fa fa-facebook" />
               </a>

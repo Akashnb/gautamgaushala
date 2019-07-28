@@ -4,7 +4,9 @@ import PropTypes from "react-dom";
 const PageHolding = ({ img, title }) => (
   <div
     className="aboutus-banner text-left"
-    style={{ backgroundImage: `url(${img})` }}
+    style={{
+      backgroundImage: `url(${img})`
+    }}
   >
     <div className="banner-content">
       <div className="container pl-0">

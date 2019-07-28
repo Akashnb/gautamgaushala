@@ -19,7 +19,7 @@ const AboutDescriptionSection1 = () => (
           <img
             src={GautamGaushala2}
             className="img-box"
-            alt="about-detail-img"
+            alt="gauttamgaushala-section3"
           />
         </div>
       </div>

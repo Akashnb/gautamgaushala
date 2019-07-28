@@ -8,7 +8,7 @@ const AppHeader = ({ MenuItems }) => (
     <nav className="navbar navbar-dark navbar-expand-lg header">
       <div className="container p-0">
         <Link className="navbar-brand" to="/">
-          <img src={Logo} alt="logo" className="header-logo" />
+          <img src={Logo} alt="gauttamgaushala-logo" className="header-logo" />
         </Link>
         <button
           className="navbar-toggler collapsed ml-auto mt-0"

@@ -18,12 +18,12 @@ const Banner = () => (
         <img
           className="d-block w-100 web-slider"
           src={Slider2}
-          alt="First slide"
+          alt="gauttamgaushala-slider1"
         />
         <img
           className="d-block w-100 mobile-slider"
           src={MobileSlider2}
-          alt="First slide"
+          alt="gauttamgaushala-slider1"
         />
         <div className="banner-detail text-center">
           <h3 className="banner-title">
@@ -41,12 +41,12 @@ const Banner = () => (
         <img
           className="d-block w-100 web-slider"
           src={Slider1}
-          alt="Second slide"
+          alt="gauttamgaushala-slider2"
         />
         <img
           className="d-block w-100 mobile-slider"
           src={MobileSlider1}
-          alt="Second slide"
+          alt="gauttamgaushala-slider2"
         />
         <div className="banner-detail text-center">
           <h3 className="banner-title">
@@ -64,12 +64,12 @@ const Banner = () => (
         <img
           className="d-block w-100 web-slider"
           src={Slider3}
-          alt="Third slide"
+          alt="gauttamgaushala-slider3"
         />
         <img
           className="d-block w-100 mobile-slider"
           src={MobileSlider3}
-          alt="Third slide"
+          alt="gauttamgaushala-slider3"
         />
         <div className="banner-detail text-center">
           <h3 className="banner-title">
