@@ -25,7 +25,10 @@ const ConactUs = () => (
               <img src={Mail} alt="gauttamgaushala-mailicon" />
               <div className="contact-info">
                 <h2 className="contact-head-two">ઇમેઇલ</h2>
-                <a href="#" className="contact-p">
+                <a
+                  href="mailto:gauttamgaushala@gmail.com"
+                  className="contact-p"
+                >
                   gauttamgaushala@gmail.com
                 </a>
               </div>

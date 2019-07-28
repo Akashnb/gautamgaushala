@@ -7,7 +7,6 @@ import About from "./scenes/AboutPage/AboutPage";
 import ContactUs from "./scenes/ContactUsPage/ContactUsPage";
 import Gallery from "./scenes/GalleryPage/GalleryPage";
 import Donation from "./scenes/DonationPage/DonationPage";
-import Cowservices from "./shared/components/CowServices/CowServicesContainer";
 import RescueTeam from "./scenes/RescueTeamPage/RescueTeamPage";
 
 const Routes = () => (
@@ -16,7 +15,6 @@ const Routes = () => (
       <Switch>
         {/* <Route path="*" component={NotFound} /> */}
         <Route exact path="/" component={Home} />
-        <Route exact path="/demo" component={Cowservices} />
         <Route exact path="/about" component={About} />
         <Route exact path="/contact-us" component={ContactUs} />
         <Route exact path="/gallery" component={Gallery} />
