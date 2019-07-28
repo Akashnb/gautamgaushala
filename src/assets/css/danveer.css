@@ -314,6 +314,12 @@ a:hover {
 .intro .intro-group .intro-grp-detail:hover {
   transform: translateY(-20px);
 }
+
+@media screen and (max-width: 720px) {
+  .intro .intro-group .intro-grp-detail:hover {
+    transform: unset;
+  }
+}
 .intro .intro-group .col-lg-3 {
   max-width: 24%;
   margin-right: 15px;

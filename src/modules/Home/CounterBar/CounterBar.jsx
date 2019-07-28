@@ -14,7 +14,7 @@ const CounterBar = () => (
             <img src={CowSvg} alt="gauttamgaushala-donation-icon" />
           </div>
           <div className="service-detail float-sm-left mr-3">
-            <h5 className="head-five">ગાય</h5>
+            <h5 className="head-five">ગાયો</h5>
             <span className="service-span">90</span>
           </div>
         </div>

@@ -34,7 +34,7 @@ const WelcomeDanveer = () => (
               />
               <h2 className="sub-head-two inline">એક દિવસ ના દાતા</h2>
               <p className="intro-detail-p mb-0">
-                જન્મ દિવસ, લગન ની સાલ ગિરા, પુણ્ય તિથિ પર યોગદાન આપી ને યાડગાર
+                જન્મ દિવસ, લગન ની સાલ ગિરા, પુણ્ય તિથિ પર યોગદાન આપી ને યાદગાર
                 બનાવો.
               </p>
             </div>
