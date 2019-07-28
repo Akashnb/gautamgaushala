@@ -24,9 +24,9 @@ const ConactUs = () => (
             <div className="data">
               <img src={Mail} alt="gauttamgaushala-mailicon" />
               <div className="contact-info">
-                <h2 className="contact-head-two">Email Address</h2>
+                <h2 className="contact-head-two">ઇમેઇલ</h2>
                 <a href="#" className="contact-p">
-                  abc@gmail.com
+                  gauttamgaushala@gmail.com
                 </a>
               </div>
             </div>
@@ -82,7 +82,11 @@ const ConactUs = () => (
                 defaultValue={""}
               />
             </div>
-            <Button title="Submit" link="about" className="contact-submit" />
+            <Button
+              title="Submit"
+              link="contact-us"
+              className="contact-submit"
+            />
           </form>
         </div>
       </div>

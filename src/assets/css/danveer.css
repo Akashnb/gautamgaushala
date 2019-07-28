@@ -570,6 +570,11 @@ a:hover {
   font-size: 14px;
   color: #999;
 }
+
+.contact-p:hover {
+  color: #999 !important ;
+}
+
 .contact-part .contact-detail .data {
   position: relative;
   margin-bottom: 45px;
