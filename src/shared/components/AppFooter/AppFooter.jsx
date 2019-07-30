@@ -5,6 +5,8 @@ import FooterCowImg from "../../../assets/image/cowfooter.png";
 import Logo from "../../../assets/image/logo-new.png";
 import Location from "../../../assets/image/location.png";
 import Phone from "../../../assets/image/phone.png";
+import Facebook from "../../../assets/image/facebook.png";
+import Instagram from "../../../assets/image/instagram.png";
 
 const Footer = () => (
   <React.Fragment>
@@ -105,23 +107,22 @@ const Footer = () => (
                 </a>
               </p>
             </div>
-            <div className="social-icon ml-auto mr-3">
+            <div className="social-icon ml-auto mr-3 d-flex align-items-center">
               <a
                 href="https://www.facebook.com/gautamgaushala/"
                 target="_blank"
                 title="Follow on Facebook"
                 rel="noopener noreferrer"
               >
-                <i className="fa fa-facebook" />
+                <img src={Facebook} alt="facebook" className="mr-1" />
               </a>
-              <a href="#" title="Follow on twitter">
-                <i className="fa fa-twitter" />
-              </a>
-              <a href="#" title="Follow on google-plus">
-                <i className="fa fa-linkedin" />
-              </a>
-              <a href="#" title="Follow on instagram">
-                <i className="fa fa-instagram" />
+              <a
+                href="https://www.instagram.com/gautamgausha/"
+                target="_blank"
+                title="Follow on Facebook"
+                rel="noopener noreferrer"
+              >
+                <img src={Instagram} alt="instagram" className="ml-1" />
               </a>
             </div>
           </div>
