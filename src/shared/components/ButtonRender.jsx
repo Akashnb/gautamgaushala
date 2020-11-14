@@ -2,6 +2,8 @@ import React from "react";
 import PropTypes from "prop-types";
 import { Link } from "react-router-dom";
 
+import routes from "../data/routes";
+
 const ButtonRender = ({ title, link, className }) => (
   <Link className={`donate_comman_button ${className}`} to={`/${link}`}>
     {title}
@@ -15,7 +17,7 @@ ButtonRender.propTypes = {
 
 ButtonRender.defaultProps = {
   title: "Donate",
-  link: "/donate"
+  link: routes.DONATE
 };
 
 export default ButtonRender;

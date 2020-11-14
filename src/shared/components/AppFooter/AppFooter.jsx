@@ -37,7 +37,7 @@ const Footer = () => (
               </li>
               <li>
                 <img src={Phone} alt="gauttamgaushala-phone" />
-                <a href="tel:+911234567890" class="company-detail">
+                <a href="tel:+911234567890" className="company-detail">
                   +91 90 333 95 800
                 </a>
               </li>

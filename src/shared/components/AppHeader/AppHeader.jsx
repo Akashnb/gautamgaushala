@@ -2,8 +2,10 @@ import React from "react";
 import { Link, NavLink } from "react-router-dom";
 
 import Logo from "../../../assets/image/logo-new.png";
+import { MenuItems } from "../../data/MenuItems.js";
+import routes from "../../data/routes";
 
-const AppHeader = ({ MenuItems }) => (
+const AppHeader = () => (
   <header>
     <nav className="navbar navbar-dark navbar-expand-lg header">
       <div className="container p-0">
@@ -35,10 +37,10 @@ const AppHeader = ({ MenuItems }) => (
               </li>
             ))}
             <li className="nav-item donate d-none d-lg-block">
-              <Link to="/app/donate">દાન કરો</Link>
+              <Link to={routes.DONATE}>દાન કરો</Link>
             </li>
             <li className="mob-donate d-sm-block d-lg-none">
-              <Link className="nav-link" to="/app/donate">
+              <Link className="nav-link" to={routes.DONATE}>
                 દાન કરો
               </Link>
             </li>

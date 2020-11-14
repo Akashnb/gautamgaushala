@@ -20,8 +20,8 @@ const Donation = () => (
         કરી શકો છો.
       </p>
       <div className="col-md-6">
-        <table class="table">
-          <thead class="thead-dark">
+        <table className="table">
+          <thead className="thead-dark">
             <tr>
               <th scope="col">Name of Bank</th>
               <th scope="col">A/C No.</th>

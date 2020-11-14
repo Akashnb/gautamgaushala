@@ -1,27 +1,29 @@
-[
+import routes from "../data/routes";
+
+export const MenuItems = [
   {
     "id": "1",
     "title": "Home",
-    "path": "/app/dashboard"
+    "path": routes.DASHBOARD
   },
   {
     "id": "2",
     "title": "About Us",
-    "path": "/app/about"
+    "path": routes.ABOUT_US
   },
   {
     "id": "3",
     "title": "Rescue Team",
-    "path": "/app/rescue"
+    "path": routes.RESCUE_TEAM
   },
   {
     "id": "4",
     "title": "Gallery",
-    "path": "/app/gallery"
+    "path": routes.GALLERY
   },
   {
     "id": "5",
     "title": "Contact Us",
-    "path": "/app/contact-us"
+    "path": routes.CONTACT_US
   }
 ]
