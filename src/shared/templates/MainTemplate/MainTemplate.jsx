@@ -1,26 +1,17 @@
 import React from "react";
-import PropTypes from "prop-types";
 
 import Header from "../../components/AppHeader/AppHeaderContainer";
 import Footer from "../../components/AppFooter/AppFooterContainer";
+import PageRouter from "../../PageRouter";
 
-const MainTemplate = ({ children }) => (
+const MainTemplate = () => (
   <div className="main">
     <Header />
-    {children}
+      <aside>
+        <PageRouter />
+      </aside>
     <Footer />
   </div>
 );
-
-MainTemplate.propTypes = {
-  children: PropTypes.oneOfType([
-    PropTypes.element,
-    PropTypes.arrayOf(PropTypes.element)
-  ])
-};
-
-MainTemplate.defaultProps = {
-  children: <div />
-};
 
 export default MainTemplate;

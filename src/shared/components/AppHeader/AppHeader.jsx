@@ -29,17 +29,16 @@ const AppHeader = ({ MenuItems }) => (
           <ul className="nav navbar-nav ml-auto mobilemenu">
             {MenuItems.map(menuItem => (
               <li key={menuItem.id} className="nav-item">
-                {/*active*/}
                 <NavLink className="nav-link" exact to={menuItem.path}>
                   {menuItem.title}
                 </NavLink>
               </li>
             ))}
             <li className="nav-item donate d-none d-lg-block">
-              <Link to="/donate">દાન કરો</Link>
+              <Link to="/app/donate">દાન કરો</Link>
             </li>
             <li className="mob-donate d-sm-block d-lg-none">
-              <Link className="nav-link" to="/donate">
+              <Link className="nav-link" to="/app/donate">
                 દાન કરો
               </Link>
             </li>

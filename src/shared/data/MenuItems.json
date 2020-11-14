@@ -2,26 +2,26 @@
   {
     "id": "1",
     "title": "Home",
-    "path": "/"
+    "path": "/app/dashboard"
   },
   {
     "id": "2",
     "title": "About Us",
-    "path": "/about"
+    "path": "/app/about"
   },
   {
     "id": "3",
     "title": "Rescue Team",
-    "path": "/rescue"
+    "path": "/app/rescue"
   },
   {
     "id": "4",
     "title": "Gallery",
-    "path": "/gallery"
+    "path": "/app/gallery"
   },
   {
     "id": "5",
     "title": "Contact Us",
-    "path": "/contact-us"
+    "path": "/app/contact-us"
   }
 ]
