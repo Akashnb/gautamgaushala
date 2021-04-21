@@ -1,5 +1,6 @@
 import React from "react";
 
+import routes from '../../../Routes'
 import Button from "../../../shared/components/ButtonRender";
 import cow from "../../../assets/image/little2cow.jpg";
 
@@ -27,7 +28,7 @@ const AboutSection = () => (
             ત્યાં આ ગાય ને લઈ જઈ એ આ રીતે ત્યાં ગાય ને લઈ જઈ ને સારવાર કરી ત્યાં
             થી શુભ શરૂઆત થય.
           </p>
-          <Button title="વધુ વાંચો" link="about" />
+          <Button title="વધુ વાંચો" link={routes.ABOUT_US} />
         </div>
       </div>
     </div>

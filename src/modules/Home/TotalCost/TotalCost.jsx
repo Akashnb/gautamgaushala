@@ -1,5 +1,6 @@
 import React from "react";
 
+import routes from '../../../Routes'
 import Button from "../../../shared/components/ButtonRender";
 import Cost1 from "../../../assets/image/cost1.jpg";
 import Cost2 from "../../../assets/image/cost2.jpg";
@@ -22,7 +23,7 @@ const TotalCost = () => (
             <br /> માટે ચારોં
           </h2>
           <h5>1501</h5>
-          <Button title="દાન કરો" link="donate" className="donate-btn" />
+          <Button title="દાન કરો" link={routes.DONATE} className="donate-btn" />
         </div>
       </div>
       <div className="col-md-3 col-sm-6 col-xs-12 d-flex justify-content-center align-items-start mb-5">
@@ -37,7 +38,7 @@ const TotalCost = () => (
             મંથલી એક ગાય <br /> માટે ચારોં
           </h2>
           <h5>5100</h5>
-          <Button title="દાન કરો" link="donate" className="donate-btn" />
+          <Button title="દાન કરો" link={routes.DONATE} className="donate-btn" />
         </div>
       </div>
       <div className="col-md-3 col-sm-6 col-xs-12 d-flex justify-content-center align-items-start mb-5">
@@ -50,7 +51,7 @@ const TotalCost = () => (
           </div>
           <h2>એક મહિના નો તબીબી[Medical] ખર્ચ</h2>
           <h5>7000</h5>
-          <Button title="દાન કરો" link="donate" className="donate-btn" />
+          <Button title="દાન કરો" link={routes.DONATE} className="donate-btn" />
         </div>
       </div>
       <div className="col-md-3 col-sm-6 col-xs-12 d-flex justify-content-center align-items-start mb-5">
@@ -63,7 +64,7 @@ const TotalCost = () => (
           </div>
           <h2>ગૌશાળા નો એક મહિના માટે જાળવણી ખર્ચ</h2>
           <h5>25000</h5>
-          <Button title="દાન કરો" link="donate" className="donate-btn" />
+          <Button title="દાન કરો" link={routes.DONATE} className="donate-btn" />
         </div>
       </div>
     </div>

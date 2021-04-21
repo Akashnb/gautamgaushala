@@ -1,5 +1,6 @@
 import React from "react";
 
+import routes from '../../../Routes'
 import Button from "../../../shared/components/ButtonRender";
 
 const AboutCommentForm = () => (
@@ -39,7 +40,7 @@ const AboutCommentForm = () => (
               defaultValue={""}
             />
           </div>
-          <Button title="Submit" link="about" />
+          <Button title="Submit" link={routes.ABOUT_US} />
         </form>
       </div>
     </div>

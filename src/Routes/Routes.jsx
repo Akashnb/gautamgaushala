@@ -1,8 +1,8 @@
 import React, { Fragment } from "react";
 import { BrowserRouter, Switch, Route, Redirect } from "react-router-dom";
 
-import routes from "./shared/data/routes";
-import MainTemplate from "./shared/templates/MainTemplate/MainTemplateContainer";
+import routes from "./";
+import MainTemplate from "../shared/templates/MainTemplate/MainTemplateContainer";
 
 const Routes = () => (
   <BrowserRouter>

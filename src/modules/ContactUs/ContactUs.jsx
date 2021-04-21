@@ -1,5 +1,6 @@
 import React from "react";
 
+import routes from '../../Routes'
 import Button from "../../shared/components/ButtonRender";
 import Marker from "../../assets/image/marker-icon.png";
 import Mail from "../../assets/image/mail-icon.png";
@@ -87,7 +88,7 @@ const ConactUs = () => (
             </div>
             <Button
               title="Submit"
-              link="contact-us"
+              link={routes.CONTACT_US}
               className="contact-submit"
             />
           </form>

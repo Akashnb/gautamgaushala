@@ -7,7 +7,7 @@ import ContactUs from "../scenes/ContactUsPage/ContactUsPage";
 import Gallery from "../scenes/GalleryPage/GalleryPage";
 import Donation from "../scenes/DonationPage/DonationPage";
 import RescueTeam from "../scenes/RescueTeamPage/RescueTeamPage";
-import routes from "./data/routes";
+import routes from "./";
 
 const PageRouter = () => (
     <Switch>

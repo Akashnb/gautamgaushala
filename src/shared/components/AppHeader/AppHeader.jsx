@@ -3,13 +3,13 @@ import { Link, NavLink } from "react-router-dom";
 
 import Logo from "../../../assets/image/logo-new.png";
 import { MenuItems } from "../../data/MenuItems.js";
-import routes from "../../data/routes";
+import routes from "../../../Routes";
 
 const AppHeader = () => (
   <header>
     <nav className="navbar navbar-dark navbar-expand-lg header">
       <div className="container p-0">
-        <Link className="navbar-brand" to="/">
+        <Link className="navbar-brand" to={routes.DASHBOARD}>
           <img src={Logo} alt="gauttamgaushala-logo" className="header-logo" />
         </Link>
         <button

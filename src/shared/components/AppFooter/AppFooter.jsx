@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
+import routes from '../../../Routes'
 import FooterCowImg from "../../../assets/image/cowfooter.png";
 import Logo from "../../../assets/image/logo-new.png";
 import Location from "../../../assets/image/location.png";
@@ -19,7 +20,7 @@ const Footer = () => (
       <div className="container">
         <div className="row">
           <div className="col-md-4 col-sm-6 col-xs-12">
-            <Link to="/">
+            <Link to={routes.DASHBOARD}>
               <img
                 className="footer-logo"
                 src={Logo}
@@ -47,19 +48,19 @@ const Footer = () => (
             <h3 className="heading-five">Quick Links</h3>
             <ul className="footer-menu p-0">
               <li>
-                <Link to="/">Home</Link>
+                <Link to={routes.DASHBOARD}>Home</Link>
               </li>
               <li>
-                <Link to="/about">About Us</Link>
+                <Link to={routes.ABOUT_US}>About Us</Link>
               </li>
               <li>
-                <Link to="/gallery">Gallery</Link>
+                <Link to={routes.GALLERY}>Gallery</Link>
               </li>
               <li>
-                <Link to="/contact-us">Contact Us</Link>
+                <Link to={routes.CONTACT_US}>Contact Us</Link>
               </li>
               <li>
-                <Link to="/donate">Donate</Link>
+                <Link to={routes.DONATE}>Donate</Link>
               </li>
             </ul>
           </div>
@@ -67,16 +68,16 @@ const Footer = () => (
             <h3 className="heading-five">About Us</h3>
             <ul className="footer-menu p-0">
               <li>
-                <Link to="/about">About us</Link>
+                <Link to={routes.ABOUT_US}>About us</Link>
               </li>
               <li>
-                <Link to="/about">Our Mission</Link>
+                <Link to={routes.ABOUT_US}>Our Mission</Link>
               </li>
               <li>
-                <Link to="/about">Our Vision</Link>
+                <Link to={routes.ABOUT_US}>Our Vision</Link>
               </li>
               <li>
-                <Link to="/rescue">Rescue Team</Link>
+                <Link to={routes.RESCUE_TEAM}>Rescue Team</Link>
               </li>
             </ul>
           </div>

@@ -7,6 +7,8 @@ import Slider3 from "../../../assets/image/slider/slider3.png";
 import MobileSlider1 from "../../../assets/image/slider/mobileslider1.png";
 import MobileSlider2 from "../../../assets/image/slider/mobileslider2.png";
 import MobileSlider3 from "../../../assets/image/slider/mobileslider3.png";
+import routes from "../../../Routes";
+
 const Banner = () => (
   <div
     id="carouselExampleIndicators"
@@ -34,7 +36,7 @@ const Banner = () => (
               અમારા વારસોને સુરક્ષિત કરવામાં સહાય કરો
             </span>
           </span>
-          <Button title="દાન કરો" link="donate" />
+          <Button title="દાન કરો" link={routes.DONATE} />
         </div>
       </div>
       <div className="carousel-item">
@@ -57,7 +59,7 @@ const Banner = () => (
               અમારા વારસોને સુરક્ષિત કરવામાં સહાય કરો
             </span>
           </span>
-          <Button title="દાન કરો" link="donate" />
+          <Button title="દાન કરો" link={routes.DONATE} />
         </div>
       </div>
       <div className="carousel-item">
@@ -80,7 +82,7 @@ const Banner = () => (
               અમારા વારસોને સુરક્ષિત કરવામાં સહાય કરો
             </span>
           </span>
-          <Button title="દાન કરો" link="donate" />
+          <Button title="દાન કરો" link={routes.DONATE} />
         </div>
       </div>
     </div>
