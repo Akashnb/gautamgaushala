@@ -9,8 +9,12 @@ import MobileSlider2 from "../../../assets/image/slider/mobileslider2.png";
 import MobileSlider3 from "../../../assets/image/slider/mobileslider3.png";
 import routes from "../../../Routes";
 
-const Banner = () => (
-  <div
+import { useTranslation } from 'react-i18next';
+
+const Banner = () =>
+{
+  const { t } = useTranslation();
+  return <div
     id="carouselExampleIndicators"
     className="carousel slide"
     data-ride="carousel"
@@ -29,14 +33,14 @@ const Banner = () => (
         />
         <div className="banner-detail text-center">
           <h3 className="banner-title">
-            <span className="text-overlay">ગોમાતા રાષ્ટ્રમાતા</span>
+            <span className="text-overlay">{t("gomataTheMotherOfTheNation")}</span>
           </h3>
           <span className="heading-span inline">
             <span className="text-overlay">
-              અમારા વારસોને સુરક્ષિત કરવામાં સહાય કરો
+              {t("helpProtectOurHeritage")}
             </span>
           </span>
-          <Button title="દાન કરો" link={routes.DONATE} />
+          <Button title={t("Donate")} link={routes.DONATE} />
         </div>
       </div>
       <div className="carousel-item">
@@ -105,6 +109,6 @@ const Banner = () => (
       <span className="sr-only">Next</span>
     </a>
   </div>
-);
+};
 
 export default Banner;

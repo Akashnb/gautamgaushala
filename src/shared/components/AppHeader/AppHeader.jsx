@@ -4,9 +4,18 @@ import { Link, NavLink } from "react-router-dom";
 import Logo from "../../../assets/image/logo-new.png";
 import { MenuItems } from "../../data/MenuItems.js";
 import routes from "../../../Routes";
+import i18n from "i18next";
 
-const AppHeader = () => (
-  <header>
+import { useTranslation } from 'react-i18next';
+const AppHeader = () => {
+
+  const [t] = useTranslation();
+
+  const handleLanguageChange = (e) => {
+    i18n.changeLanguage(e.target.value);
+  }
+
+  return <header>
     <nav className="navbar navbar-dark navbar-expand-lg header">
       <div className="container p-0">
         <Link className="navbar-brand" to={routes.DASHBOARD}>
@@ -37,8 +46,10 @@ const AppHeader = () => (
               </li>
             ))}
             <li className="nav-item donate d-none d-lg-block">
-              <Link to={routes.DONATE}>દાન કરો</Link>
+              <Link to={routes.DONATE}>{t("Donate")}</Link>
             </li>
+
+            {/* <button onClick={handleLanguageChange}>Hd</button> */}
             <li className="mob-donate d-sm-block d-lg-none">
               <Link className="nav-link" to={routes.DONATE}>
                 દાન કરો
@@ -46,9 +57,16 @@ const AppHeader = () => (
             </li>
           </ul>
         </div>
+        <div style={{width:"10rem"}}>
+        <select value={i18n.language} onChange={handleLanguageChange} className="form-control">
+              <option value="guj">Gujarati</option>
+              <option value="hin">Hindi</option>
+              <option value="en">English</option>
+          </select>
+        </div>
       </div>
     </nav>
   </header>
-);
+};
 
 export default AppHeader;

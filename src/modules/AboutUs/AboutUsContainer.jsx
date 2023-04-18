@@ -1,14 +1,12 @@
-import React from "react";
-
+import React, { useEffect } from "react";
 import AboutUs from "./AboutUs";
 
-class AboutUsContainer extends React.Component {
-  componentDidMount() {
+const AboutUsContainer = () => {
+  useEffect(() => {
     window.scrollTo(0, 0);
-  }
-  render() {
-    return <AboutUs />;
-  }
+  }, [])
+
+  return <AboutUs />;
 }
 
 export default AboutUsContainer;

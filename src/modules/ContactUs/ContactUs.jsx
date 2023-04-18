@@ -6,7 +6,12 @@ import Marker from "../../assets/image/marker-icon.png";
 import Mail from "../../assets/image/mail-icon.png";
 import Phone from "../../assets/image/phone-icon.png";
 
-const ConactUs = () => (
+import { useTranslation } from 'react-i18next';
+
+const ConactUs = () => {
+  const { t } = useTranslation();
+
+  return (
   <div className="contact-part paddingub">
     <div className="container">
       <div className="row">
@@ -15,17 +20,16 @@ const ConactUs = () => (
             <div className="data">
               <img src={Marker} alt="gauttamgaushala-markericon" />
               <div className="contact-info">
-                <h2 className="contact-head-two">સરનામું</h2>
+                <h2 className="contact-head-two">{t("Address")}</h2>
                 <p className="contact-p">
-                  ગૌતમ ગૌશાળા બાંટવા, ત્રીકોણ બાગ માણાવદર રોડ, માણાવદર-362620,
-                  જિલ્લો જૂનાગઢ ગુજરાત
+                  {t("goshalaAddress")}
                 </p>
               </div>
             </div>
             <div className="data">
               <img src={Mail} alt="gauttamgaushala-mailicon" />
               <div className="contact-info">
-                <h2 className="contact-head-two">ઇમેઇલ</h2>
+                <h2 className="contact-head-two">{t("Email")}</h2>
                 <a
                   href="mailto:gauttamgaushala@gmail.com"
                   className="contact-p"
@@ -37,7 +41,7 @@ const ConactUs = () => (
             <div className="data">
               <img src={Phone} alt="gauttamgaushala-callicon" />
               <div className="contact-info">
-                <h2 className="contact-head-two">સંપર્ક નંબર</h2>
+                <h2 className="contact-head-two">{t("contactNo")}</h2>
                 <a className="contact-p mb-0" href="tel:+919033395800">
                   +91 90 333 95 800
                 </a>
@@ -96,6 +100,7 @@ const ConactUs = () => (
       </div>
     </div>
   </div>
-);
+)
+  };
 
 export default ConactUs;
