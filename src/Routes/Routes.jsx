@@ -8,7 +8,11 @@ const Routes = () => (
   <BrowserRouter>
     <Fragment>
       <Switch>
-        <Route exact path="/" component={() => <Redirect to={routes.DASHBOARD} />} />
+        <Route
+          exact
+          path="/"
+          component={() => <Redirect to={routes.DASHBOARD} />}
+        />
         <Route path="/app" component={MainTemplate} />
       </Switch>
     </Fragment>

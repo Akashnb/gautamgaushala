@@ -2,12 +2,12 @@ import React, { useEffect } from "react";
 
 import Gallery from "./Gallery";
 
-const GalleryContainer = ()=> {
+const GalleryContainer = () => {
   useEffect(() => {
     window.scrollTo(0, 0);
-  }, [])
+  }, []);
 
-    return <Gallery />;
-}
+  return <Gallery />;
+};
 
 export default GalleryContainer;

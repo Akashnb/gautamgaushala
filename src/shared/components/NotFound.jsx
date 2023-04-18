@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-import routes from '../../Routes'
+import routes from "../../Routes";
 import Bgimg from "../../assets/images/Not-Found/404-bg.png";
 import Img404 from "../../assets/images/Not-Found/404.png";
 

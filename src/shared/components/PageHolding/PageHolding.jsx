@@ -5,7 +5,7 @@ const PageHolding = ({ img, title }) => (
   <div
     className="aboutus-banner text-left"
     style={{
-      backgroundImage: `url(${img})`
+      backgroundImage: `url(${img})`,
     }}
   >
     <div className="banner-content">
@@ -18,12 +18,12 @@ const PageHolding = ({ img, title }) => (
 
 PageHolding.propTypes = {
   img: PropTypes.string,
-  title: PropTypes.string
+  title: PropTypes.string,
 };
 
 PageHolding.defaultProps = {
   img: "",
-  title: ""
+  title: "",
 };
 
 export default PageHolding;

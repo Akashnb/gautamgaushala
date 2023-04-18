@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-import routes from '../../../Routes'
+import routes from "../../../Routes";
 import FooterCowImg from "../../../assets/image/cowfooter.png";
 import Logo from "../../../assets/image/logo-new.png";
 import Location from "../../../assets/image/location.png";

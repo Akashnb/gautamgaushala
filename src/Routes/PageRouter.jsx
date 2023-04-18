@@ -10,14 +10,14 @@ import RescueTeam from "../scenes/RescueTeamPage/RescueTeamPage";
 import routes from "./";
 
 const PageRouter = () => (
-    <Switch>
-        <Route exact path={routes.DASHBOARD} component={Home} />
-        <Route exact path={routes.ABOUT_US} component={About} />
-        <Route exact path={routes.CONTACT_US} component={ContactUs} />
-        <Route exact path={routes.GALLERY} component={Gallery} />
-        <Route exact path={routes.DONATE} component={Donation} />
-        <Route exact path={routes.RESCUE_TEAM} component={RescueTeam} />
-    </Switch>
+  <Switch>
+    <Route exact path={routes.DASHBOARD} component={Home} />
+    <Route exact path={routes.ABOUT_US} component={About} />
+    <Route exact path={routes.CONTACT_US} component={ContactUs} />
+    <Route exact path={routes.GALLERY} component={Gallery} />
+    <Route exact path={routes.DONATE} component={Donation} />
+    <Route exact path={routes.RESCUE_TEAM} component={RescueTeam} />
+  </Switch>
 );
 
 export default PageRouter;
