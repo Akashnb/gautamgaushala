@@ -9,12 +9,12 @@ const PageHoldingContainer = ({ img, title }) => {
 
 PageHoldingContainer.propTypes = {
   img: PropTypes.string,
-  title: PropTypes.string
+  title: PropTypes.string,
 };
 
 PageHoldingContainer.defaultProps = {
   img: "",
-  title: ""
+  title: "",
 };
 
 export default PageHoldingContainer;

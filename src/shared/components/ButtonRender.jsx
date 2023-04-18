@@ -12,12 +12,12 @@ const ButtonRender = ({ title, link, className }) => (
 
 ButtonRender.propTypes = {
   title: PropTypes.string,
-  link: PropTypes.string
+  link: PropTypes.string,
 };
 
 ButtonRender.defaultProps = {
   title: "Donate",
-  link: routes.DONATE
+  link: routes.DONATE,
 };
 
 export default ButtonRender;
