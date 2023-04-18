@@ -3,7 +3,7 @@ import React, { useEffect } from "react";
 import ContactUs from "./ContactUs";
 import GoogleMap from "./GoogleMap";
 
-const ConactUsContainer = () => {
+const ContactUsContainer = () => {
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
@@ -14,6 +14,6 @@ const ConactUsContainer = () => {
       <GoogleMap />
     </React.Fragment>
   );
-}
+};
 
-export default ConactUsContainer;
+export default ContactUsContainer;
