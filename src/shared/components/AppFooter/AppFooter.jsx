@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-import routes from '../../../Routes'
+import routes from "../../../Routes";
 import FooterCowImg from "../../../assets/image/cowfooter.png";
 import Logo from "../../../assets/image/logo-new.png";
 import Location from "../../../assets/image/location.png";
@@ -98,7 +98,7 @@ const Footer = () => (
           <div className="row">
             <div className="copyright">
               <p className="pl-3">
-                Designed by{" "}
+                Developed by{" "}
                 <a
                   href="https://www.linkedin.com/in/akash-bambhaniya-15b877137/"
                   target="_blank"
