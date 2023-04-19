@@ -1,11 +1,11 @@
-import React from "react";
+import React, { Suspense, lazy } from "react";
 
-import Home from "../../modules/Home/HomeContainer";
+const Home = lazy(() => import("../../modules/Home/HomeContainer"));
 
 const HomePage = () => (
-  <>
+  <Suspense fallback={<div>Loading...</div>}>
     <Home />
-  </>
+  </Suspense>
 );
 
 export default HomePage;

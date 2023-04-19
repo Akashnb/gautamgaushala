@@ -1,7 +1,11 @@
-import React from "react";
+import React, { Suspense, lazy } from "react";
 
-import NotFoundPage from "../shared/components/NotFound";
+const NotFoundPage = lazy(() => import("../shared/components/NotFound"));
 
-const NotFound = () => <NotFoundPage />;
+const NotFound = () => (
+  <Suspense fallback={<div>Loading...</div>}>
+    <NotFoundPage />
+  </Suspense>
+);
 
 export default NotFound;

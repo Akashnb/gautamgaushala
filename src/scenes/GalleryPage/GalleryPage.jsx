@@ -1,14 +1,16 @@
-import React from "react";
+import React, { Suspense, lazy } from "react";
 
 import AboutBanner from "../../assets/image/aboutus.jpg";
-import Gallery from "../../modules/Gallery/GalleryContainer";
-import PageHolding from "../../shared/components/PageHolding/PageHoldingContainer";
+const Gallery = lazy(() => import("../../modules/Gallery/GalleryContainer"));
+const PageHolding = lazy(() =>
+  import("../../shared/components/PageHolding/PageHoldingContainer")
+);
 
 const GalleryPage = () => (
-  <>
+  <Suspense fallback={<div>Loading...</div>}>
     <PageHolding img={AboutBanner} title="ગેલેરી" />
     <Gallery />
-  </>
+  </Suspense>
 );
 
 export default GalleryPage;
