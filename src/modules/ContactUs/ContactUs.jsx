@@ -1,6 +1,6 @@
 import React from "react";
 
-import routes from '../../Routes'
+import routes from "../../Routes";
 import Button from "../../shared/components/ButtonRender";
 import Marker from "../../assets/image/marker-icon.png";
 import Mail from "../../assets/image/mail-icon.png";

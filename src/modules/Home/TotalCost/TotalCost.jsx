@@ -1,6 +1,6 @@
 import React from "react";
 
-import routes from '../../../Routes'
+import routes from "../../../Routes";
 import Button from "../../../shared/components/ButtonRender";
 import Cost1 from "../../../assets/image/cost1.jpg";
 import Cost2 from "../../../assets/image/cost2.jpg";

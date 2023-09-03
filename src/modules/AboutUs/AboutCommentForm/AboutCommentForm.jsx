@@ -1,6 +1,6 @@
 import React from "react";
 
-import routes from '../../../Routes'
+import routes from "../../../Routes";
 import Button from "../../../shared/components/ButtonRender";
 
 const AboutCommentForm = () => (

@@ -1,14 +1,12 @@
-import React from "react";
+import React, { useEffect } from "react";
 
 import Home from "./Home";
 
-class HomeContainer extends React.Component {
-  componentDidMount() {
+const HomeContainer = () => {
+  useEffect(() => {
     window.scrollTo(0, 0);
-  }
-  render() {
-    return <Home />;
-  }
-}
+  }, []);
+  return <Home />;
+};
 
 export default HomeContainer;

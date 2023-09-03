@@ -1,14 +1,12 @@
-import React from "react";
+import React, { useEffect } from "react";
 
 import RescueTeam from "./RescueTeam";
 
-class RescueTeamContainer extends React.Component {
-  componentDidMount() {
+const RescueTeamContainer = () => {
+  useEffect(() => {
     window.scrollTo(0, 0);
-  }
-  render() {
-    return <RescueTeam />;
-  }
-}
+  }, []);
+  return <RescueTeam />;
+};
 
 export default RescueTeamContainer;

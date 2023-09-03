@@ -7,13 +7,13 @@ import CounterBar from "./CounterBar/CounterBarContainer";
 import TotalCost from "./TotalCost/TotalCostContainer";
 
 const Home = () => (
-  <React.Fragment>
+  <>
     <Banner />
     <WelcomeDanveer />
     <AboutSection />
     <CounterBar />
     <TotalCost />
-  </React.Fragment>
+  </>
 );
 
 export default Home;

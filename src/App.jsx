@@ -1,5 +1,4 @@
 import React from "react";
-import { Analytics } from "@vercel/analytics/react";
 
 import Routes from "./Routes/Routes";
 
@@ -10,7 +9,6 @@ import "./assets/styles/app.scss";
 const App = () => (
   <div className="App">
     <Routes />
-    <Analytics />
   </div>
 );
 

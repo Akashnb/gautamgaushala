@@ -29,7 +29,7 @@ const AppHeader = () => (
           id="navbarSupportedContent"
         >
           <ul className="nav navbar-nav ml-auto mobilemenu">
-            {MenuItems.map(menuItem => (
+            {MenuItems.map((menuItem) => (
               <li key={menuItem.id} className="nav-item">
                 <NavLink className="nav-link" exact to={menuItem.path}>
                   {menuItem.title}

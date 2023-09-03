@@ -7,9 +7,9 @@ import PageRouter from "../../../Routes/PageRouter";
 const MainTemplate = () => (
   <div className="main">
     <Header />
-      <aside>
-        <PageRouter />
-      </aside>
+    <aside>
+      <PageRouter />
+    </aside>
     <Footer />
   </div>
 );

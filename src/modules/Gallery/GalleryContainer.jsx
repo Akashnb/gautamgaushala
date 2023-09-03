@@ -1,14 +1,13 @@
-import React from "react";
+import React, { useEffect } from "react";
 
 import Gallery from "./Gallery";
 
-class GalleryContainer extends React.Component {
-  componentDidMount() {
+const GalleryContainer = () => {
+  useEffect(() => {
     window.scrollTo(0, 0);
-  }
-  render() {
-    return <Gallery />;
-  }
-}
+  }, []);
+
+  return <Gallery />;
+};
 
 export default GalleryContainer;

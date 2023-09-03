@@ -1,14 +1,12 @@
-import React from "react";
+import React, { useEffect } from "react";
 
 import Donation from "./Donation";
 
-class DonationContainer extends React.Component {
-  componentDidMount() {
+const DonationContainer = () => {
+  useEffect(() => {
     window.scrollTo(0, 0);
-  }
-  render() {
-    return <Donation />;
-  }
-}
+  }, []);
+  return <Donation />;
+};
 
 export default DonationContainer;
