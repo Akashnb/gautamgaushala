@@ -9,10 +9,10 @@ const ContactUsContainer = () => {
   }, []);
 
   return (
-    <React.Fragment>
+    <>
       <ContactUs />
       <GoogleMap />
-    </React.Fragment>
+    </>
   );
 };
 

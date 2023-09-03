@@ -10,7 +10,7 @@ import Facebook from "../../../assets/image/facebook.png";
 import Instagram from "../../../assets/image/instagram.png";
 
 const Footer = () => (
-  <React.Fragment>
+  <>
     <img
       src={FooterCowImg}
       alt="gauttamgaushala-cowbanner"
@@ -130,7 +130,7 @@ const Footer = () => (
         </div>
       </div>
     </footer>
-  </React.Fragment>
+  </>
 );
 
 export default Footer;
