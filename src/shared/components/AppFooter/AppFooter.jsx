@@ -38,7 +38,12 @@ const Footer = () => (
               </li>
               <li>
                 <img src={Phone} alt="gauttamgaushala-phone" />
-                <a href="tel:+911234567890" className="company-detail">
+                <a
+                  href="tel:+919033395800"
+                  className="company-detail"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   +91 90 333 95 800
                 </a>
               </li>
@@ -100,7 +105,7 @@ const Footer = () => (
               <p className="pl-3">
                 Developed by{" "}
                 <a
-                  href="https://www.linkedin.com/in/akash-bambhaniya-15b877137/"
+                  href="https://akashb.vercel.app/"
                   target="_blank"
                   rel="noopener noreferrer"
                 >

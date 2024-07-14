@@ -29,6 +29,8 @@ const ConactUs = () => (
                 <a
                   href="mailto:gauttamgaushala@gmail.com"
                   className="contact-p"
+                  rel="noopener noreferrer"
+                  target="_blank"
                 >
                   gauttamgaushala@gmail.com
                 </a>
@@ -38,19 +40,16 @@ const ConactUs = () => (
               <img src={Phone} alt="gauttamgaushala-callicon" />
               <div className="contact-info">
                 <h2 className="contact-head-two">સંપર્ક નંબર</h2>
-                <a className="contact-p mb-0" href="tel:+919033395800">
+                <a
+                  className="contact-p mb-0"
+                  href="tel:+919033395800"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
                   +91 90 333 95 800
                 </a>
               </div>
             </div>
-          </div>
-          <div className="social-icon">
-            <a href="#" title="Follow on Facebook">
-              <i className="fa fa-facebook" />
-            </a>
-            <a href="#" title="Follow on instagram">
-              <i className="fa fa-instagram" />
-            </a>
           </div>
         </div>
         <div className="col-xs-12 col-lg-9 col-md-8">
