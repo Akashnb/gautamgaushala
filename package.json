@@ -1,11 +1,14 @@
 {
   "name": "gauttam_gaushala",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "private": true,
   "description": "Gauttam Gaushala started in 1995. One day I saw a sick cow and realized that this cow was in dire need of treatment. After speaking, he told me that I have an empty dale, take this cow there and treat the cow there, and from there auspicious beginning will begin.",
   "main": "index.js",
-  "author": "Akash Bambhaniya",
   "license": "proprietor",
+  "author": "Akash Bambhaniya",
+  "author-email": "akash.dev.personal@gmail.com",
+  "author-website": "https://akashb.in/",
+  "homepage": "https://gauttam-gaushala-bantwa.web.app/app/dashboard",
   "dependencies": {
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
@@ -13,7 +16,7 @@
   },
   "devDependencies": {
     "node-sass": "^4.14.1",
-    "react-scripts": "5.0.1"
+    "react-scripts": "3.0.1"
   },
   "scripts": {
     "start": "react-scripts start",
