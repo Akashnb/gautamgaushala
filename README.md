@@ -25,8 +25,9 @@ The Gautam Gaushala website is designed to provide information about the trust's
 To run this project locally, follow these steps:
 
 1. Clone this repository.
-2. Install project dependencies using `npm install`.
-3. Start the development server with `npm start`.
+2. Use node version 14.21.3
+3. Install project dependencies using `npm install`.
+4. Start the development server with `npm start`.
 
 ## Contributing
 
@@ -42,8 +43,3 @@ For inquiries or support, please contact us at [contact@gautamgaushala.org](mail
 
 Thank you for your interest in the Gautam Gaushala website.
 
-# Steps to run
-
-Use node v14.21.3
-npm install
-npm start
