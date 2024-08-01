@@ -41,3 +41,9 @@ This project is open-source and licensed under the [MIT License](LICENSE.md).
 For inquiries or support, please contact us at [contact@gautamgaushala.org](mailto:contact@gautamgaushala.org).
 
 Thank you for your interest in the Gautam Gaushala website.
+
+# Steps to run
+
+Use node v14.21.3
+npm install
+npm start

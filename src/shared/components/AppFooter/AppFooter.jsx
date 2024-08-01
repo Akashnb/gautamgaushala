@@ -103,9 +103,9 @@ const Footer = () => (
           <div className="row">
             <div className="copyright">
               <p className="pl-3">
-                Developed by{" "}
+                Made by{" "}
                 <a
-                  href="https://akashb.vercel.app/"
+                  href="https://akashb.in/"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
